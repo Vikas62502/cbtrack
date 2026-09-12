@@ -1,0 +1,725 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "Car Key Cover",
+      "slug": "car-key-cover",
+      "description": "Premium metal and leather key covers for popular cars.",
+      "image": "https://m.media-amazon.com/images/I/614nne-LOoL.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Cleaning Kit",
+      "slug": "cleaning-kit",
+      "description": "All-in-one car cleaning kits for interior and exterior.",
+      "image": "https://m.media-amazon.com/images/I/71nSwAEOqDL.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Duster",
+      "slug": "duster",
+      "description": "Microfiber dusters for cars, SUVs, and home.",
+      "image": "https://m.media-amazon.com/images/I/61dmYqR+aeL.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Brushes",
+      "slug": "brushes",
+      "description": "AC vent and desk brushes for interiors and electronics.",
+      "image": "https://m.media-amazon.com/images/I/61OoazY9BrL.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Microfiber Cloth",
+      "slug": "cloth",
+      "description": "Thick microfiber towels for cars, bikes, and home.",
+      "image": "https://m.media-amazon.com/images/I/716cpsn5wcL.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Sponge",
+      "slug": "sponge",
+      "description": "Expanding absorbent sponges for wash and wipe-downs.",
+      "image": "https://m.media-amazon.com/images/I/51lFdSpvs4L.jpg"
+    },
+    {
+      "id": "7",
+      "name": "TAG / Card Holder",
+      "slug": "tag-holder",
+      "description": "Windshield tag holders and car ID card covers.",
+      "image": "https://m.media-amazon.com/images/I/51cECpP3RaL.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Money Bank",
+      "slug": "money-box",
+      "description": "Wooden money banks for everyday savings.",
+      "image": "https://m.media-amazon.com/images/I/81p1ktIyA-L.jpg"
+    },
+    {
+      "id": "9",
+      "name": "Hot Water Bag",
+      "slug": "water-bag",
+      "description": "Hot water bags for natural pain relief.",
+      "image": "https://m.media-amazon.com/images/I/61AV92oVF9L.jpg"
+    }
+  ],
+  "collections": [
+    {
+      "id": "1",
+      "name": "Car & Motorbike Care",
+      "slug": "car-motorbike-care",
+      "image": "https://m.media-amazon.com/images/I/71nSwAEOqDL.jpg"
+    },
+    {
+      "id": "2",
+      "name": "KEY COVER",
+      "slug": "key-cover",
+      "image": "https://m.media-amazon.com/images/I/614nne-LOoL.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Car Accessories",
+      "slug": "car-accessories",
+      "image": "https://m.media-amazon.com/images/I/51cECpP3RaL.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Home Essentials",
+      "slug": "home-essentials",
+      "image": "https://m.media-amazon.com/images/I/81p1ktIyA-L.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "slug": "10-piece-cleaning-kit",
+      "sku": "10 pcs kit-Cloth",
+      "name": "CB Track Car Cleaning Kit, 10 Pieces with Microfiber Towels, Dusters, Brushes and Accessories for Your Car, Bike, SUV Interior & Exterior Car Cleaning Combo All in one",
+      "shortName": "10-Piece Cleaning Kit",
+      "description": "Keep your car spotless inside and out with this Car Cleaning Kit Combo All-in-One . Specially designed for effortless maintenance, this car cleaning kit includes everything you need for a thorough clean: a high-absorbent microfiber towel , an expandable sponge, a microfiber duster for car cleaning , a compact desk brush , and both a car big duster and a car small duster . Whether you're detailing your dashboard or wiping down your windows, this car cleaning accessories kit is ideal for both car interior cleaning  and  car exterior cleaning . The microfiber duster traps dust without scratching, cleaning quickly and effectively. Perfect for car owners who want a professional clean at home. 1 Pcs Microfiber Towel : Ultra-absorbent and soft, perfect for streak-free wiping on any surface. 1 Pcs Microfiber Car Big Duster : A car microfiber duster designed to trap dust and debris from large surfaces effortlessly. 1 Pcs Microfiber Car Small Duster : Precision duster for car cleaning , perfect for tight spaces and delicate areas. 1 Pcs Desk Brush : Versatile duster car accessories for removing dust from dashboards and consoles. 1 Pcs AC Vents Brush : Specialized car cleaning duster for cleaning hard-to-reach air vents. 5 Pcs Windscreen Shampoo Tablets : Effervescent tablets dissolve in water for a powerful, streak-free windscreen clean. Multi-Purpose Use : Ideal for both car interior cleaning kit and car exterior cleaning kit applications. High-Quality Materials : Durable microfiber and ergonomic designs ensure long-lasting performance. Portable & Convenient : Compact tools for easy storage and on-the-go cleaning.",
+      "price": 449,
+      "compareAt": 1499,
+      "category": "cleaning-kit",
+      "collection": "car-motorbike-care",
+      "bestseller": true,
+      "banner": true,
+      "image": "https://m.media-amazon.com/images/I/71nSwAEOqDL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/71nSwAEOqDL.jpg",
+        "https://m.media-amazon.com/images/I/71dcry1Qb0L.jpg",
+        "https://m.media-amazon.com/images/I/71uOVIyv-8L.jpg",
+        "https://m.media-amazon.com/images/I/61vyOPf4W2L.jpg",
+        "https://m.media-amazon.com/images/I/61TBf2G+egL.jpg",
+        "https://m.media-amazon.com/images/I/71xU8D6qeWL.jpg",
+        "https://m.media-amazon.com/images/I/71r23NMJGYL.jpg",
+        "https://m.media-amazon.com/images/I/71ivBMXCL9L.jpg"
+      ],
+      "features": [
+        "Complete Car Cleaning Kit Combo: Includes 1 pcs Microfiber Towel, 1 pcs Microfiber Car Big Duster, 1pcs  Microfiber Car Small Duster, 1 pcs  Desk Brush, 1 pcs  AC Vents Brush, and 5 Pcs Windscreen Shampoo Tablets for all-round cleaning.",
+        "VERSATILE DUSTER: Premium microfibre car duster with extendable handle effectively traps dust and dirt particles without scratching the surface",
+        "EFFICIENT TOOLS: Specialised cleaning brush designed for thorough cleaning of both interior and exterior automobile surfaces",
+        "PREMIUM CLOTH: Ultra-soft car microfiber duster and towel ensure scratch-free cleaning.",
+        "CONVENIENT CLEANING: Glass cleaner tablets dissolve easily in water to create an effective solution for spotless windscreens and windows"
+      ]
+    },
+    {
+      "id": "2",
+      "slug": "interior-brush-combo-2-pcs",
+      "sku": "2 bursh combo",
+      "name": "CB Track Car Interior Cleaning Brush Combo | 2 Pcs Pack | AC Vent Brush | Scratch Free Car Duster | Multifunctional Car Brush for Cleaning Car Interior, PC, Laptop, Keyboard",
+      "shortName": "Interior Brush Combo (2 Pcs)",
+      "description": "Transform your car cleaning experience with this versatile 2-piece brush combo. The set includes a specialised AC vent brush and a multi-purpose car duster, both featuring soft, dense bristles and ergonomic black handles for comfortable grip. The angled brush is perfect for reaching into air vents and tight corners, while the flat brush efficiently cleans larger surfaces. These premium brushes are designed to be scratch-free, making them safe for delicate surfaces in your vehicle's interior. Beyond automotive use, these brushes excel at cleaning keyboards, laptops, and other electronics. The durable construction ensures long-lasting performance, while the thoughtfully designed bristles effectively capture dust and debris. Whether you're detailing your car's dashboard, cleaning between console buttons, or maintaining your electronic devices, this brush combo offers the perfect solution for thorough cleaning.",
+      "price": 169,
+      "compareAt": 799,
+      "category": "brushes",
+      "collection": "car-motorbike-care",
+      "bestseller": true,
+      "banner": false,
+      "image": "https://m.media-amazon.com/images/I/61OoazY9BrL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/61OoazY9BrL.jpg",
+        "https://m.media-amazon.com/images/I/71uOVIyv-8L.jpg",
+        "https://m.media-amazon.com/images/I/51xqsqajTCL.jpg",
+        "https://m.media-amazon.com/images/I/61vyOPf4W2L.jpg",
+        "https://m.media-amazon.com/images/I/71QeN0PSIwL.jpg",
+        "https://m.media-amazon.com/images/I/71v7OLBChjL.jpg",
+        "https://m.media-amazon.com/images/I/514SlAFzlpL.jpg"
+      ],
+      "features": [
+        "VERSATILE DESIGN: Two-piece brush set featuring an angled brush for AC vents and a wide brush for larger surfaces, perfect for automotive interior detailing",
+        "DUAL FUNCTIONALITY: Angled brush reaches tight corners while flat brush efficiently cleans keyboards, dashboards, and other surfaces",
+        "SOFT BRISTLES: Premium quality synthetic bristles ensure scratch-free cleaning on delicate surfaces like car interiors and electronic devices",
+        "Curved Surface Design: The car duster features a curved surface design, allowing easy access for the cleaning brush deep into the air outlet.",
+        "MULTIPURPOSE USE: Ideal for cleaning car interiors, air vents, keyboards, laptops, PC components, and other electronic devices requiring gentle yet thorough cleaning"
+      ]
+    },
+    {
+      "id": "3",
+      "slug": "3-piece-cleaning-kit",
+      "sku": "3pcs Cleaning Kit",
+      "name": "CB Track Car Cleaning Kit, 3-Piece Set with AC Vents Brush, Car Desk Brush, and Microfiber Cloth a-car Cleaning kit Combo All in one (Multipurpose Brush Uses)",
+      "shortName": "3-Piece Cleaning Kit",
+      "description": "CB Track Car Cleaning Kit, 3-Piece Set with AC Vents Brush, Car Desk Brush, Microfiber Cloth-car cleaning kit combo all in one- car interior cleaning kit, car cleaning accessories kit perfect for quick dust removal between washes, desk brush and robust car cleaning brush ensure thorough cleaning of both interior and exterior surfaces. The kit features premium microfibre cloths that are exceptionally absorbent and gentle on your car's finish, while the expandable cleaning sponge adapts to various surface contours for effective washing. The concentrated glass wiper cleaning tablets dissolve easily to create a powerful solution for crystal-clear windows. This all-in-one kit provides everything needed for professional-quality car maintenance, suitable for all vehicle types from compact cars to SUVs. The thoughtfully designed tools help maintain your vehicle's appearance with minimal effort, making regular cleaning sessions more efficient and effective",
+      "price": 184,
+      "compareAt": 699,
+      "category": "cleaning-kit",
+      "collection": "car-motorbike-care",
+      "bestseller": true,
+      "banner": false,
+      "image": "https://m.media-amazon.com/images/I/61zRlgQ7hyL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/61zRlgQ7hyL.jpg",
+        "https://m.media-amazon.com/images/I/71xU8D6qeWL.jpg",
+        "https://m.media-amazon.com/images/I/61zB4xsFczL.jpg",
+        "https://m.media-amazon.com/images/I/61XXrwlilJL.jpg"
+      ],
+      "features": [
+        "COMPLETE KIT: Comprehensive 3-Piece Set with AC Vents Brush, Car Desk Brush, Microfiber Cloth and Glass Cleaning Tablets (2 pcs)-car cleaning kit combo all in one",
+        "VERSATILE DUSTER: Premium microfibre car duster effectively traps dust and dirt particles without scratching the surface",
+        "1 pcs. Desk Brush+ 1 pcs. Microfiber Brush+ 1 pcs. Ac Vents Brush ( Multipurpose Brush Uses)",
+        "UNIVERSAL APPLICATION: Suitable for wet and dry cleaning of car vents, dashboard, console, and other interior surfaces"
+      ]
+    },
+    {
+      "id": "4",
+      "slug": "extendable-car-duster",
+      "sku": "Big Duster",
+      "name": "CB Track Car Duster, Extendable Long Handle Microfiber Exterior Scratch Free Car Cleaning Tool, Car Duster Brush for Truck,Pickup,SUV,Motorcycle, Vehicles Cleaning Brush",
+      "shortName": "Extendable Car Duster",
+      "description": "Keep your vehicle spotless with this premium car duster featuring an extendable handle for enhanced reach. The microfibre cleaning head is specially designed to trap dust and dirt without scratching your vehicle's delicate surfaces. Perfect for cars, trucks, SUVs, and motorcycles, this versatile duster extends to help you reach those tricky spots on larger vehicles. The ergonomic grip with red accents ensures comfortable handling during cleaning sessions. The durable construction combines a sturdy telescopic pole with a generously-sized dusting head that makes quick work of dust, pollen, and light debris. Whether you're maintaining your vehicle's showroom shine or preparing for a special occasion, this car duster is an essential addition to your automotive cleaning arsenal. The grey microfibre strands are densely packed to maximise dust collection while remaining gentle on all exterior surfaces.",
+      "price": 235,
+      "compareAt": 999,
+      "category": "duster",
+      "collection": "car-motorbike-care",
+      "bestseller": true,
+      "banner": true,
+      "image": "https://m.media-amazon.com/images/I/61dmYqR+aeL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/61dmYqR+aeL.jpg",
+        "https://m.media-amazon.com/images/I/71oJ75sJlbL.jpg",
+        "https://m.media-amazon.com/images/I/61kzwuFl21L.jpg",
+        "https://m.media-amazon.com/images/I/71R3oyHgtBL.jpg",
+        "https://m.media-amazon.com/images/I/71r23NMJGYL.jpg",
+        "https://m.media-amazon.com/images/I/71KFl0RnnCL.jpg"
+      ],
+      "features": [
+        "EXTENDABLE HANDLE: Features a telescopic handle that extends to reach all areas of your vehicle, suitable for cleaning cars, trucks, SUVs and motorcycles",
+        "MICROFIBRE HEAD: Premium quality microfibre head effectively traps dust and dirt particles without scratching your vehicle's surface",
+        "ERGONOMIC DESIGN: Comfortable grip with non-slip rubber sections ensures easy handling during cleaning sessions",
+        "VERSATILE CLEANING: Flexible dusting head adapts to various vehicle contours, reaching both flat surfaces and difficult corners",
+        "DURABLE CONSTRUCTION: Made with sturdy materials including a steel telescopic pole and reinforced head attachment for long-lasting performance"
+      ]
+    },
+    {
+      "id": "5",
+      "slug": "4-piece-cleaning-kit",
+      "sku": "DB+B+SD+Goli=4pcs-NEW",
+      "name": "CB Track Car Cleaning Kit, 4-Piece Set with Microfiber Duster, Car Desk Brush, Car Cleaning Brush and Glass Cleaning Tablets-car Cleaning kit Combo All in one.",
+      "shortName": "4-Piece Cleaning Kit",
+      "description": "CB Track Car Cleaning Kit, 4-Piece Set with Microfiber Duster, Car Desk Brush, Car Cleaning Brush and Glass Cleaning Tablets-car cleaning kit combo all in one - car interior cleaning kit, car cleaning accessories kit perfect for quick dust removal between washes, desk brush and robust car cleaning brush ensure thorough cleaning of both interior and exterior surfaces. The kit features premium microfibre cloths that are exceptionally absorbent and gentle on your car's finish, while the expandable cleaning sponge adapts to various surface contours for effective washing. The concentrated glass wiper cleaning tablets dissolve easily to create a powerful solution for crystal-clear windows. This all-in-one kit provides everything needed for professional-quality car maintenance, suitable for all vehicle types from compact cars to SUVs. The thoughtfully designed tools help maintain your vehicle's appearance with minimal effort, making regular cleaning sessions more efficient and effective.",
+      "price": 179,
+      "compareAt": 1399,
+      "category": "cleaning-kit",
+      "collection": "car-motorbike-care",
+      "bestseller": true,
+      "banner": false,
+      "image": "https://m.media-amazon.com/images/I/61mLHdoznTL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/61mLHdoznTL.jpg",
+        "https://m.media-amazon.com/images/I/8103WYr3UzL.jpg",
+        "https://m.media-amazon.com/images/I/61BvZ3oyggL.jpg",
+        "https://m.media-amazon.com/images/I/71v7OLBChjL.jpg",
+        "https://m.media-amazon.com/images/I/71uOVIyv-8L.jpg"
+      ],
+      "features": [
+        "COMPLETE KIT: Comprehensive 4-piece Set- car cleaning set includes microfiber duster, desk brush, cleaning brush, and glass cleaner tablets.",
+        "VERSATILE DUSTER: Premium microfibre car duster effectively traps dust and dirt particles without scratching the surface",
+        "1 pcs. Desk Brush+ 1 pcs. Microfiber Duster+ 1 pcs. Cleaning Brush + 2 Glass Cleaning Tab",
+        "CONVENIENT CLEANING: Glass cleaner tablets dissolve easily in water to create an effective solution for spotless windscreens and windows"
+      ]
+    },
+    {
+      "id": "6",
+      "slug": "important-notes-cover",
+      "sku": "PR-ID-Card-COVER-A",
+      "name": "CB Track Improtent Notes Cover for car 4 Wheelers with 3M Double Sided Tape (Holder).",
+      "shortName": "Important Notes Cover",
+      "description": "Improtent Notes CConvenient Holder: This sturdy card holder allows you to securely display important cards or notes on your car's for easy visibility.Improtent Notes Cover for carover for car 4 Wheelers with 3M Double Sided Tape .",
+      "price": 97,
+      "compareAt": 999,
+      "category": "tag-holder",
+      "collection": "car-accessories",
+      "bestseller": true,
+      "banner": true,
+      "image": "https://m.media-amazon.com/images/I/51cECpP3RaL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/51cECpP3RaL.jpg",
+        "https://m.media-amazon.com/images/I/61c2QRhLuRL.jpg",
+        "https://m.media-amazon.com/images/I/51-ufGIcE2L.jpg",
+        "https://m.media-amazon.com/images/I/91Baz3ffVFL.jpg",
+        "https://m.media-amazon.com/images/I/51tcaZiVxhL.jpg",
+        "https://m.media-amazon.com/images/I/617d4UopdOL.jpg",
+        "https://m.media-amazon.com/images/I/51Wc+7esuJL.jpg"
+      ],
+      "features": [
+        "Convenient Holder: This sturdy card holder allows you to securely display important cards or notes on your car's for easy visibility.Improtent Notes Cover for car",
+        "Durable Construction: Crafted from high-quality ACRYLIC material, it is designed to withstand outdoor conditions and frequent use.",
+        "EASY INSTALLATION: Simple peel-and-stick application process with clear positioning guidelines for optimal placement",
+        "UNIVERSAL COMPATIBILITY: Designed to securely hold and protect card stickers on any car with strong 3M adhesive Tape",
+        "PERFECT FIT: Measures 12 cm x 7 cm, precisely sized to accommodate standard card stickers."
+      ]
+    },
+    {
+      "id": "7",
+      "slug": "notes-cover-cloth-combo",
+      "sku": "TAG HOLDER KIT",
+      "name": "CB Track Improtent Notes Cover for car 4 Wheelers with 3M Double Sided Tape (Holder+Cloth)",
+      "shortName": "Notes Cover + Cloth Combo",
+      "description": "Improtent Notes CConvenient Holder: This sturdy card holder allows you to securely display important cards or notes on your car's for easy visibility.Improtent Notes Cover for carover for car 4 Wheelers with 3M Double Sided Tape .",
+      "price": 174,
+      "compareAt": 999,
+      "category": "tag-holder",
+      "collection": "car-accessories",
+      "bestseller": true,
+      "banner": false,
+      "image": "https://m.media-amazon.com/images/I/61akB2t0njL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/61akB2t0njL.jpg",
+        "https://m.media-amazon.com/images/I/91Baz3ffVFL.jpg",
+        "https://m.media-amazon.com/images/I/91-MPgYze-L.jpg",
+        "https://m.media-amazon.com/images/I/71xU8D6qeWL.jpg",
+        "https://m.media-amazon.com/images/I/61rlEZx5YZL.jpg",
+        "https://m.media-amazon.com/images/I/519jDl0IRtL.jpg",
+        "https://m.media-amazon.com/images/I/71f0TNYs4pL.jpg",
+        "https://m.media-amazon.com/images/I/61TBf2G+egL.jpg"
+      ],
+      "features": [
+        "Convenient Holder: This sturdy card holder allows you to securely display important cards or notes on your car's for easy visibility.Improtent Notes Cover for car",
+        "Durable Construction: Crafted from high-quality ACRYLIC material, it is designed to withstand outdoor conditions and frequent use.",
+        "EASY INSTALLATION: Simple peel-and-stick application process with clear positioning guidelines for optimal placement",
+        "UNIVERSAL COMPATIBILITY: Designed to securely hold and protect card stickers on any car with strong 3M adhesive Tape",
+        "PERFECT FIT: Measures 12 cm x 7 cm, precisely sized to accommodate standard card stickers."
+      ]
+    },
+    {
+      "id": "8",
+      "slug": "mini-microfiber-duster",
+      "sku": "mini duster",
+      "name": "CB Track Mini Microfiber Duster Interior, Multi-Purpose Duster Brush with Handle for Car Cleaning & Household",
+      "shortName": "Mini Microfiber Duster",
+      "description": "Keep your car's interior spotless with this versatile mini microfiber duster. The ergonomic black handle provides excellent grip and control while cleaning, whilst the plush grey microfibre head effectively traps dust and debris. Perfect for reaching those tricky spots in your vehicle - from air vents and dashboard to console and door panels. The compact size makes it ideal for storage in your car's glove compartment or boot. Beyond automotive use, this multi-purpose duster works brilliantly for home cleaning tasks like blinds, keyboards, and delicate surfaces. The durable construction ensures long-lasting performance, while the soft microfibre strands are gentle enough to prevent scratches. Regular dusting with this handy tool helps maintain a clean, fresh-looking car interior. The flexible head allows you to manoeuvre around obstacles easily, making quick work of dust accumulation in hard-to-reach areas.",
+      "price": 89,
+      "compareAt": 799,
+      "category": "duster",
+      "collection": "car-motorbike-care",
+      "bestseller": true,
+      "banner": false,
+      "image": "https://m.media-amazon.com/images/I/51cKADaujuL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/51cKADaujuL.jpg",
+        "https://m.media-amazon.com/images/I/8103WYr3UzL.jpg",
+        "https://m.media-amazon.com/images/I/5147aVKNyPL.jpg",
+        "https://m.media-amazon.com/images/I/61cxtPpYR4L.jpg",
+        "https://m.media-amazon.com/images/I/71LVJlsYhFL.jpg",
+        "https://m.media-amazon.com/images/I/71HJ9klD3sL.jpg",
+        "https://m.media-amazon.com/images/I/71dcry1Qb0L.jpg"
+      ],
+      "features": [
+        "VERSATILE DESIGN: Multi-purpose microfibre duster with ergonomic handle perfect for both automotive interior and household cleaning tasks",
+        "EFFICIENT CLEANING: Dense microfibre strands effectively trap dust and debris without scratching delicate surfaces",
+        "COMPACT SIZE: Mini-sized duster head ideal for reaching tight spaces in car dashboards, vents, and console areas",
+        "DURABLE CONSTRUCTION: Sturdy plastic handle with securely attached grey microfibre strands for long-lasting performance",
+        "EASY MAINTENANCE: Washable microfibre head can be cleaned and reused multiple times for continued effectiveness"
+      ]
+    },
+    {
+      "id": "9",
+      "slug": "hyundai-4-button-key-cover",
+      "sku": "Hyundai-4 button",
+      "name": "CB Track Metal Silicon Key Cover Compatible with Hyundai i20, Creta, Venue, Tucson, Alcazar, Verna, Xcent, Aura, Elantra 4 Button Smart Key for Hyundai car (4-Button-Key)",
+      "shortName": "Hyundai 4-Button Key Cover",
+      "description": "CB Track Metal Silicon Key Cover Compatible with Hyundai i20, Creta, Venue, Tucson, Alcazar, Verna, Xcent, Aura, Elantra 3 Button Smart Key Special Feature Visibilitye in low-ligh Condition. NOTE- Please compare Your keys shape with the key image shown for reference so as to make sure that the product is suitable for your key. Premium Metal and Silicone Material: Crafted from high-quality Metal and Silicone for a soft touch, durability, and rust resistance. 360-Degree Coverage: Full protection from falls, shocks, and scratches; your key will always look new. Easy Installation: Effortlessly slide it on for instant protection and a comfortable grip. Durable Metal Silicon Construction: Constructed with a combination of high-quality metal and silicon, this key cover is built to last. It provides reliable protection against scratches, drops, and everyday wear and tear, ensuring your car key stays in pristine condition. Radium Light for Night Visibility: Equipped with a radium light feature, This key cover ensures visibility even in low-light conditions. Whether you're unlocking your car in a dimly lit parking lot or searching for your keys at night, the radium light provides added convenience and safety. Luxurious Design: Elevate your key's appearance with our luxurious key cover. The sleek metal accents combined with the soft silicon finish create a stylish and sophisticated look that complements any car key.",
+      "price": 283,
+      "compareAt": 1999,
+      "category": "car-key-cover",
+      "collection": "key-cover",
+      "bestseller": true,
+      "banner": true,
+      "image": "https://m.media-amazon.com/images/I/614nne-LOoL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/614nne-LOoL.jpg",
+        "https://m.media-amazon.com/images/I/51jDIHlEh8L.jpg",
+        "https://m.media-amazon.com/images/I/61gjq0lgdGL.jpg",
+        "https://m.media-amazon.com/images/I/61VdEITrXFL.jpg",
+        "https://m.media-amazon.com/images/I/71-pufPQVmL.jpg",
+        "https://m.media-amazon.com/images/I/51Hrf-ogIXL.jpg",
+        "https://m.media-amazon.com/images/I/61Go5UtE7wL.jpg"
+      ],
+      "features": [
+        "NOTE】: Please compare Your key shape with the key image shown for reference so as to make sure that the product is suitable for your key.",
+        "【360-DEGREE COVERAGE】: Full protection from falls, shocks, and scratches; your key will always look new.",
+        "【EASY INSTALLATION】: Effortlessly slide it on for instant protection and a comfortable grip.",
+        "【PREMIUM QUALITY MATERIALS】: Crafted from high-quality Metal and Silicone for a soft touch, durability, and rust resistance.",
+        "【STYLISH PROTECTION】: Elevate your key's appearance with golden stripes while safeguarding it from drops and scratches."
+      ]
+    },
+    {
+      "id": "10",
+      "slug": "maruti-2-button-key-cover",
+      "sku": "Matel-SUZUKI-Key-AM",
+      "name": "CB Track Metal Key Cover Compatible with Maruti Suzuki Celerio, Swift Dzire, Alto, Baleno, Grand Vitara, Swift, Brezza, Ertiga, Dzire, 2 Button Remote Key (Check Car Key Shape Before Buying)",
+      "shortName": "Maruti 2-Button Key Cover",
+      "description": "CB Track Metal Key Cover Compatible withSuzuki Swift | Ertiga | Wagonr | Celerio | Swift Dzire | Alto | Fronx | Breza | S Presso | Ignis 2 Button Remote Key/ Baleno, Grand Vitara, XL6, Swift, Brezza, Celerio, Ignis, Ertiga, Dzire, Fronx, Urban Cruiser, Rumion, Glanza, Hyryder 2 Button Smart key.Suzuki Swift | Ertiga | Wagonr | Celerio | Swift Dzire | Alto | Fronx | Breza | S Presso | Ignis 2 Button Remote Key. NOTE- Please compare Your keys shape with the key image shown for reference so as to make sure that the product is suitable for your key. Protection: Enhance your key's look while shielding it from drops and scratches. 360-Degree Coverage: Complete protection from falls, shocks, and scratches; keep your key looking new. Premium Metal and Silicone: Made from high-quality metal and silicone for a soft feel, durability, and rust resistance. Durable & Scratch-Proof: Provides long-lasting protection without sacrificing style. Easy Installation: Slide it on effortlessly for immediate protection and a comfortable grip. Elevate your car key's appearance with this sophisticated vegan wood leather finish key cover. Precisely engineered to be compatible with a wide range of Maruti Suzuki models including Fronx, Jimny, WagonR, Swift, Baleno, Dzire, Ignis, Ciaz, S-Cross, Vitara Brezza, Ertiga, XL6, Alto, Celerio, Ritz, S-Presso, and SX4. This stylish cover is designed specifically for 2-button remote keys, offering a perfect fit while protecting your key from daily wear and tear. The premium wood-textured finish adds a touch of luxury to your car key, making it stand out with its distinctive appearance. The durable construction ensures long-lasting protection while maintaining the responsiveness of your key buttons. Easy to install and practical to use, this key cover combines aesthetics with functionality, making it an ideal access",
+      "price": 299,
+      "compareAt": 1999,
+      "category": "car-key-cover",
+      "collection": "key-cover",
+      "bestseller": false,
+      "banner": false,
+      "image": "https://m.media-amazon.com/images/I/61ZQbJKwjQL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/61ZQbJKwjQL.jpg",
+        "https://m.media-amazon.com/images/I/51VVkZ-saaL.jpg",
+        "https://m.media-amazon.com/images/I/71P9hhlkPYL.jpg",
+        "https://m.media-amazon.com/images/I/51yfYlt+H5L.jpg",
+        "https://m.media-amazon.com/images/I/61b1FkyJ7+L.jpg",
+        "https://m.media-amazon.com/images/I/51cWg9rmpgL.jpg",
+        "https://m.media-amazon.com/images/I/310SrvvFkpL.jpg"
+      ],
+      "features": [
+        "Important Compatibility Note: Check your car key shape before buying to ensure proper fit with your 2-button smart key",
+        "Stylish Protection: Enhance your key's look while shielding it from drops and scratches",
+        "360-Degree Coverage: Complete protection from falls, shocks, and scratches to keep your key looking new",
+        "Premium Metal and Silicone Construction: Made from high-quality metal and silicone for a soft feel, durability, and rust resistance",
+        "Durable and Scratch-Proof Design: Provides long-lasting protection without sacrificing style"
+      ]
+    },
+    {
+      "id": "11",
+      "slug": "suzuki-remote-key-cover",
+      "sku": "Matel-SUZUKI-REMOTE",
+      "name": "CB Track Metal Key Cover Compatible with Suzuki Celerio, Swift Dzire, Alto, Baleno, Grand Vitara, Swift, Brezza, Ertiga, Dzire, 2 Button Smart Key (Check Car Key Shape Before Buying)",
+      "shortName": "Suzuki Remote Key Cover",
+      "description": "CB Track Metal Key Cover Compatible withSuzuki Swift | Ertiga | Wagonr | Celerio | Swift Dzire | Alto | Fronx | Breza | S Presso | Ignis 2 Button Remote Key/ Baleno, Grand Vitara, XL6, Swift, Brezza, Celerio, Ignis, Ertiga, Dzire, Fronx, Urban Cruiser, Rumion, Glanza, Hyryder 2 Button Smart key.Suzuki Swift | Ertiga | Wagonr | Celerio | Swift Dzire | Alto | Fronx | Breza | S Presso | Ignis 2 Button Remote Key. NOTE- Please compare Your keys shape with the key image shown for reference so as to make sure that the product is suitable for your key. Protection: Enhance your key's look while shielding it from drops and scratches. 360-Degree Coverage: Complete protection from falls, shocks, and scratches; keep your key looking new. Premium Metal and Silicone: Made from high-quality metal and silicone for a soft feel, durability, and rust resistance. Durable & Scratch-Proof: Provides long-lasting protection without sacrificing style. Easy Installation: Slide it on effortlessly for immediate protection and a comfortable grip.",
+      "price": 299,
+      "compareAt": 1999,
+      "category": "car-key-cover",
+      "collection": "key-cover",
+      "bestseller": false,
+      "banner": false,
+      "image": "https://m.media-amazon.com/images/I/61o99zITjwL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/61o99zITjwL.jpg",
+        "https://m.media-amazon.com/images/I/51cGm265C-L.jpg",
+        "https://m.media-amazon.com/images/I/71j-bhLnhvL.jpg",
+        "https://m.media-amazon.com/images/I/61420ygm8+L.jpg",
+        "https://m.media-amazon.com/images/I/61mGwVuGMTL.jpg",
+        "https://m.media-amazon.com/images/I/71Kn2SfISrL.jpg",
+        "https://m.media-amazon.com/images/I/61fMqbKPdyL.jpg",
+        "https://m.media-amazon.com/images/I/61+P+FnxptL.jpg"
+      ],
+      "features": [
+        "Important Compatibility Note: Check your car key shape before buying to ensure proper fit with your 2-button smart key",
+        "Stylish Protection: Enhance your key's appearance while shielding it from drops and scratches during daily use",
+        "360-Degree Coverage: Complete protection from falls, shocks, and scratches to keep your key looking new",
+        "Premium Metal and Silicone Construction: Made from high-quality metal and silicone for a soft feel, durability, and rust resistance",
+        "Durable and Scratch-Proof Design: Provides long-lasting protection without sacrificing style or functionality"
+      ]
+    },
+    {
+      "id": "12",
+      "slug": "interior-desk-brush",
+      "sku": "DESK BRUSH",
+      "name": "CB Track Car Interior Cleaning Brush | AC Vent Brush | Scratch Free Car Duster | Multifunctional Car Brush for Cleaning Car Interior, PC, Laptop, Keyboard",
+      "shortName": "Interior Desk Brush",
+      "description": "Transform your car cleaning experience with this versatile brush . The set includes a specialised AC vent brush and a multi-purpose car duster, both featuring soft, dense bristles and ergonomic black handles for comfortable grip. The angled brush is perfect for reaching into air vents and tight corners, while the flat brush efficiently cleans larger surfaces. These premium brushes are designed to be scratch-free, making them safe for delicate surfaces in your vehicle's interior. Beyond automotive use, these brushes excel at cleaning keyboards, laptops, and other electronics. The durable construction ensures long-lasting performance, while the thoughtfully designed bristles effectively capture dust and debris. Whether you're detailing your car's dashboard, cleaning between console buttons, or maintaining your electronic devices, this brush combo offers the perfect solution for thorough cleaning.Easy to Use and Maintain Featuring an easy-to-use design, these brushes can quickly and effectively clean dust and debris from car AC vents. The compact size makes them convenient to store and maintain. These brushes are not limited to AC vents. They are also perfect for cleaning other interior surfaces, including dashboards, air vents, and more, providing a comprehensive cleaning solution. Specifications Material: High-quality bristles and ergonomic handle Pack Includes: Two cleaning brushes Dimensions: [Insert specific dimensions] Usage: Suitable for cleaning AC vents, dashboards, and other car interior surfaces",
+      "price": 74,
+      "compareAt": 399,
+      "category": "brushes",
+      "collection": "car-motorbike-care",
+      "bestseller": false,
+      "banner": false,
+      "image": "https://m.media-amazon.com/images/I/610gkGCP3AL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/610gkGCP3AL.jpg",
+        "https://m.media-amazon.com/images/I/81fxLRNMJoL.jpg",
+        "https://m.media-amazon.com/images/I/71QeN0PSIwL.jpg",
+        "https://m.media-amazon.com/images/I/514SlAFzlpL.jpg",
+        "https://m.media-amazon.com/images/I/41Va+t+3WuL.jpg"
+      ],
+      "features": [
+        "【Effective Dusting Tool】: Sounce car interior AC vents cleaning brush is designed specifically for cleaning automotive interior surfaces, including AC vents, dashboard, and other hard-to-reach areas. Its soft bristles effectively capture and remove dust, dirt, and debris without scratching or damaging the surfaces.",
+        "【Versatile Cleaning】: This brush is not limited to AC vents only; it can also be used to clean various parts of your car's interior, such as knobs, buttons, crevices, and corners. It is a versatile tool that helps you achieve a thorough and detailed cleaning.",
+        "【Easy To Use】: The brush's ergonomic handle provides a comfortable grip, allowing for easy maneuverability and control. Simply swipe the brush over the surfaces you want to clean, and watch it effectively remove dust and dirt, leaving your car's interior fresh and spotless.",
+        "【High-Quality Construction】: Made with durable materials, it is built to withstand repeated use. It is designed to be long-lasting, ensuring that it remains an essential tool in your car cleaning routine.",
+        "【Compact And Convenient】: With its compact size, this brush is easy to store in your car's glove compartment or center console, ensuring that it is always within reach when you need to quickly clean your car's interior."
+      ]
+    },
+    {
+      "id": "13",
+      "slug": "big-mini-duster-combo",
+      "sku": "Big Duster+Small Duster",
+      "name": "CB Track Microfiber Car Dusters with Long-Handled Car Cleaning Dust for The Exterior and Inside of Cars, Motorcycles, and Car Cleaning Kits (2 pcs)",
+      "shortName": "Big + Mini Duster Combo",
+      "description": "Keep your vehicle spotless with this premium car duster featuring an extendable handle for enhanced reach. The microfibre cleaning head is specially designed to trap dust and dirt without scratching your vehicle's delicate surfaces. Perfect for cars, trucks, SUVs, and motorcycles, this versatile duster extends to help you reach those tricky spots on larger vehicles. The ergonomic grip with red accents ensures comfortable handling during cleaning sessions. The durable construction combines a sturdy telescopic pole with a generously-sized dusting head that makes quick work of dust, pollen, and light debris. Whether you're maintaining your vehicle's showroom shine or preparing for a special occasion, this car duster is an essential addition to your automotive cleaning arsenal. The grey microfibre strands are densely packed to maximise dust collection while remaining gentle on all exterior surfaces.CB Track Car Duster, Extendable Long Handle Microfiber Exterior Scratch Free Car Cleaning Tool, Car Duster Brush for Truck,Pickup,SUV,Motorcycle, Vehicles Cleaning-Combo(Big Duster+Small Duster)",
+      "price": 264,
+      "compareAt": 999,
+      "category": "duster",
+      "collection": "car-motorbike-care",
+      "bestseller": false,
+      "banner": false,
+      "image": "https://m.media-amazon.com/images/I/610E4Y0EnOL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/610E4Y0EnOL.jpg",
+        "https://m.media-amazon.com/images/I/61K2rpOvj+L.jpg",
+        "https://m.media-amazon.com/images/I/61VKqH5r8PL.jpg",
+        "https://m.media-amazon.com/images/I/71UYbIDJ8hL.jpg",
+        "https://m.media-amazon.com/images/I/61kzwuFl21L.jpg",
+        "https://m.media-amazon.com/images/I/8103WYr3UzL.jpg",
+        "https://m.media-amazon.com/images/I/71dcry1Qb0L.jpg"
+      ],
+      "features": [
+        "EXTENDABLE HANDLE: Features a telescopic handle that extends to reach all areas of your vehicle, making it perfect for cleaning cars, trucks, SUVs and motorcycles-Combo(Big Duster+Small Duster)",
+        "MICROFIBRE HEAD: Premium quality microfibre head effectively traps dust and dirt particles without scratching your vehicle's surface",
+        "ERGONOMIC DESIGN: Comfortable grip with non-slip rubber sections ensures easy handling during cleaning sessions",
+        "VERSATILE CLEANING: Flexible dusting head adapts to various vehicle contours, reaching both flat surfaces and difficult corners",
+        "DURABLE CONSTRUCTION: Made with sturdy materials including a steel telescopic pole and reinforced head attachment for long-lasting performance"
+      ]
+    },
+    {
+      "id": "14",
+      "slug": "tata-4-button-key-cover",
+      "sku": "Matel-TATa-Key",
+      "name": "CB Track Premium Metal Key Cover for Tata Nexon | Curvv | Altroz | Harrier | Punch | EV | Safari and Facelift 4 Button Smart Key, All Tata Cars Key Cover.",
+      "shortName": "Tata 4-Button Key Cover",
+      "description": "CB Track Premium Metal Key Cover for Tata Nexon | Curvv | Altroz | Harrier | Punch | EV | Safari and Facelift 4 Button Smart Key, all Tata cars Key Cover ,VEHICLE COMPATIBILITY: Nexon, Harrier, Altroz, Curvv, Tiago, Bolt, Punch, Safari 4 Button smart Key. Support Models of 2018, 2019, 2020, 2021, 2022, 2025, 2023, 2024. NOTE! Package includes: One key cover only -(Metal Cover, Silicone sleeve). One keychain and a screw driver. Key is shown for reference only and is not for sale. Please make sure to compare your key shape with the key image shown for reference. DURABLE: zinc alloy car key case is an essential Tata accessories, which is made of zinc alloy. The silicone sleeve which is safe and skin-friendly. cover is resilient, protect against drops, shocks, and cracks. PROTECTION: metal zinc alloy Tata car key cover is an extremely strong and durable product to use on car keys and provides 360-degree protection, and an enhanced grip. Other supported models: Fearless, Flagship, Creative, Empowered, Racer, Adventure, Accomplished, EV, Racer, Curve, Smart Plus, Pure, Revotron, Revotorq, facelift models and dark edition. A Stylish and Sturdy keychain designed to enhance your personality. The keychain features a convenient attachment loop, making it easy to secure your car keys. Loop made from durable metal alloy.",
+      "price": 269,
+      "compareAt": 1999,
+      "category": "car-key-cover",
+      "collection": "key-cover",
+      "bestseller": false,
+      "banner": false,
+      "image": "https://m.media-amazon.com/images/I/61napTkq81L.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/61napTkq81L.jpg",
+        "https://m.media-amazon.com/images/I/61z2Bit8F-L.jpg",
+        "https://m.media-amazon.com/images/I/71Fr8N4PPSL.jpg",
+        "https://m.media-amazon.com/images/I/51VVzBcWKIL.jpg",
+        "https://m.media-amazon.com/images/I/414POR2rF1L.jpg",
+        "https://m.media-amazon.com/images/I/614XjfGC-iL.jpg",
+        "https://m.media-amazon.com/images/I/41wBw8hvzAL.jpg",
+        "https://m.media-amazon.com/images/I/51pdHyYzCbL.jpg"
+      ],
+      "features": [
+        "VEHICLE COMPATIBILITY: Nexon, Harrier, Altroz, Curvv, Tiago, Bolt, Punch, Safari 4 Button smart Key. Support Models of 2018, 2019, 2020, 2021, 2022, 2025, 2023, 2024.",
+        "NOTE! Package includes: One key cover only -(Metal Cover, Silicone sleeve). One keychain and a screw driver. Key is shown for reference only and is not for sale. Please make sure to compare your key shape with the key image shown for reference.",
+        "DURABLE: zinc alloy car key case is an essential Tata accessories, which is made of zinc alloy. The silicone sleeve which is safe and skin-friendly. Key cover is resilient, protect against drops, shocks, and cracks.",
+        "PROTECTION: metal zinc alloy Tata car key cover is an extremely strong and durable product to use on car keys and provides 360-degree protection, and an enhanced grip.",
+        "A Stylish and Sturdy keychain designed to enhance your personality. The keychain features a convenient attachment loop, making it easy to secure your car keys. Loop made from durable metal alloy."
+      ]
+    },
+    {
+      "id": "15",
+      "slug": "suzuki-leather-key-cover",
+      "sku": "leather-suzuki-key",
+      "name": "CB Track Vegan Wood Leather Finish Key Cover Compatible with Maruti Suzuki Fronx, Jimny, WagonR, Swift, Baleno, Dzire, Ignis, S-Cross, Vitara Brezza, Ertiga, XL6, Ritz, S-Presso, SX4",
+      "shortName": "Suzuki Leather Key Cover",
+      "description": "CB Track Metal Key Cover Compatible withSuzuki Swift | Ertiga | Wagonr | Celerio | Swift Dzire | Alto | Fronx | Breza | S Presso | Ignis 2 Button Remote Key/ Baleno, Grand Vitara, XL6, Swift, Brezza, Celerio, Ignis, Ertiga, Dzire, Fronx, Urban Cruiser, Rumion, Glanza, Hyryder 2 Button Smart key.Suzuki Swift | Ertiga | Wagonr | Celerio | Swift Dzire | Alto | Fronx | Breza | S Presso | Ignis 2 Button Remote Key. NOTE- Please compare Your keys shape with the key image shown for reference so as to make sure that the product is suitable for your key. Protection: Enhance your key's look while shielding it from drops and scratches. 360-Degree Coverage: Complete protection from falls, shocks, and scratches; keep your key looking new. Premium Metal and Silicone: Made from high-quality metal and silicone for a soft feel, durability, and rust resistance. Durable & Scratch-Proof: Provides long-lasting protection without sacrificing style. Easy Installation: Slide it on effortlessly for immediate protection and a comfortable grip. Elevate your car key's appearance with this sophisticated vegan wood leather finish key cover. Precisely engineered to be compatible with a wide range of Maruti Suzuki models including Fronx, Jimny, WagonR, Swift, Baleno, Dzire, Ignis, Ciaz, S-Cross, Vitara Brezza, Ertiga, XL6, Alto, Celerio, Ritz, S-Presso, and SX4. This stylish cover is designed specifically for 2-button remote keys, offering a perfect fit while protecting your key from daily wear and tear. The premium wood-textured finish adds a touch of luxury to your car key, making it stand out with its distinctive appearance. The durable construction ensures long-lasting protection while maintaining the responsiveness of your key buttons. Easy to install and practical to use, this key cover combines aesthetics with functionality, making it an ideal accessory for your Maruti Suzuki vehicle.",
+      "price": 499,
+      "compareAt": 1999,
+      "category": "car-key-cover",
+      "collection": "key-cover",
+      "bestseller": false,
+      "banner": false,
+      "image": "https://m.media-amazon.com/images/I/61BvbZ8S0UL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/61BvbZ8S0UL.jpg",
+        "https://m.media-amazon.com/images/I/81MW7XrCkUL.jpg",
+        "https://m.media-amazon.com/images/I/713blaoZx5L.jpg",
+        "https://m.media-amazon.com/images/I/719N42A3KPL.jpg",
+        "https://m.media-amazon.com/images/I/71X+g-mx--L.jpg",
+        "https://m.media-amazon.com/images/I/71mURe-DjoL.jpg",
+        "https://m.media-amazon.com/images/I/81bbeytHcEL.jpg"
+      ],
+      "features": [
+        "NOTE:- CHECK Your CAR KEY Shape BEFORE BUYING | Stylish Protection: Enhance your key's look while shielding it from drops and scratches.",
+        "Premium Vegan Wood Leather Finish: Crafted with high-quality vegan-friendly materials, offering a luxurious wood leather texture for a sophisticated look.",
+        "Custom Fit for Maruti Suzuki: Designed specifically for models like ronx, Jimny, WagonR, Swift, Baleno, Dzire, Ignis, Ciaz, S-Cross, Vitara Brezza, Ertiga, XL6, Alto, Celerio, Ritz, S-Presso and SX4 with 2-button remote keys.",
+        "Durable and Lightweight: Combines style and durability with a lightweight design for long-lasting use.",
+        "Scratch & Damage Protection: Safeguards your smart key against scratches, dust, and accidental drops while enhancing its appearance"
+      ]
+    },
+    {
+      "id": "16",
+      "slug": "car-id-card-holder",
+      "sku": "PR-ID-Card-COVER-E",
+      "name": "CB Track Card Holder for Car, ID Card Cover Holder with 3M Tape",
+      "shortName": "Car ID Card Holder",
+      "description": "CB Track card holder is the perfect accessory for your car for any types ID . Crafted from durable ACRYLIC materials, it securely holds your parking ticket, or other important cards in plain sight, preventing you from incurring fines or penalties. Its compact size and simple design make it a practical and discreet solution for staying organised on the road. Say goodbye to misplaced cards and hello to hassle-free driving with this convenient card holder. Convenient Holder: This sturdy card holder allows you to securely display important cards or notes on your car's for easy visibility. Durable Construction: Crafted from high-quality ACRYLIC material, it is designed to withstand outdoor conditions and frequent use. Durable Construction: Made from high-quality, shatter-resistant plastic for long-lasting use. Universal Fit: This holder's flexible frame suits it for all cars. PERFECT FIT: Measures 12 cm x 7 cm, precisely sized to accommodate standard card stickers. OPTIMAL VISIBILITY: Crystal-clear material ensures visibility EASY INSTALLATION: Simple peel-and-stick application process with clear positioning guidelines for optimal placement UNIVERSAL COMPATIBILITY: Designed to securely hold and protect card stickers on any car with strong adhesive backing",
+      "price": 89,
+      "compareAt": 499,
+      "category": "tag-holder",
+      "collection": "car-accessories",
+      "bestseller": false,
+      "banner": false,
+      "image": "https://m.media-amazon.com/images/I/71sc70zQjyL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/71sc70zQjyL.jpg",
+        "https://m.media-amazon.com/images/I/61c2QRhLuRL.jpg",
+        "https://m.media-amazon.com/images/I/51-ufGIcE2L.jpg",
+        "https://m.media-amazon.com/images/I/51klBlIBUQL.jpg",
+        "https://m.media-amazon.com/images/I/71OiA3fFLML.jpg",
+        "https://m.media-amazon.com/images/I/617d4UopdOL.jpg",
+        "https://m.media-amazon.com/images/I/51tcaZiVxhL.jpg",
+        "https://m.media-amazon.com/images/I/51Wc+7esuJL.jpg"
+      ],
+      "features": [
+        "Convenient Holder: This sturdy card holder allows you to securely display important cards or notes on your car's for easy visibility",
+        "Durable Construction: Crafted from high-quality ACRYLIC material, it is designed to withstand outdoor conditions and frequent use",
+        "EASY INSTALLATION: Simple peel-and-stick application process with clear positioning guidelines for optimal placement",
+        "UNIVERSAL COMPATIBILITY: Designed to securely hold and protect card stickers on any car with strong 3M adhesive Tape",
+        "PERFECT FIT: Measures 12 cm x 7 cm, precisely sized to accommodate standard card stickers."
+      ]
+    },
+    {
+      "id": "17",
+      "slug": "wooden-money-bank-1-lakh",
+      "sku": "1 Lac money bank",
+      "name": "CB Track Wooden Money Bank with Amount 100000 (Piggy Bank 100000)",
+      "shortName": "Wooden Money Bank ₹1 Lakh",
+      "description": "Turn small savings into big achievements with this beautifully crafted Wooden Money Saving Box, designed to help both kids and adults reach the milestone of saving ₹1,00,000! The box features a grid filled with denominations of ₹50, ₹100, ₹200, and ₹500, making it easy and exciting to track your savings progress one note at a time. The rich wooden finish with rounded edges gives it an elegant look, making it a wonderful addition to any home or desk. Whether you are teaching your child the value of money or challenging yourself to save more, this money bank turns the habit of saving into a fun and rewarding experience. Simply slot in notes as you go, and watch your savings grow steadily towards the ₹1 lakh goal. It also makes for a thoughtful and practical gift for birthdays, housewarmings, or festive occasions. The sturdy wooden construction ensures durability, and the compact size makes it easy to place anywhere. Start your savings journey today — because small amounts truly do become big savings! Wooden Money Saving Box Designed To Help Kids And Adults Save Up To ₹1,00,000. Features A Grid Of Denomination Slots (₹50, ₹100, ₹200, ₹500) Printed On A Red Background Panel Within A Dark Wooden Frame. The Motivational Tagline 'small Amounts Become Big Savings' Encourages Consistent Saving Habits. Suitable As A Gift For All Age Groups.",
+      "price": 199,
+      "compareAt": 499,
+      "category": "money-box",
+      "collection": "home-essentials",
+      "bestseller": false,
+      "banner": false,
+      "image": "https://m.media-amazon.com/images/I/81p1ktIyA-L.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/81p1ktIyA-L.jpg",
+        "https://m.media-amazon.com/images/I/81QDbmXkb0L.jpg",
+        "https://m.media-amazon.com/images/I/81ZMvebR9qL.jpg",
+        "https://m.media-amazon.com/images/I/81BanoZqriL.jpg",
+        "https://m.media-amazon.com/images/I/81c1Ge2ndzL.jpg",
+        "https://m.media-amazon.com/images/I/81hQj-4QTyL.jpg",
+        "https://m.media-amazon.com/images/I/61v8Gkz10kL.jpg"
+      ],
+      "features": [
+        "SAVINGS GOAL: Wooden money saving box designed to help you save up to ₹1,00,000 through small, consistent deposits of ₹50, ₹100, ₹200, and ₹500 notes",
+        "INTERACTIVE DESIGN: Features a numbered grid on the front panel so you can track every deposit and stay motivated as you progress towards your savings target",
+        "SUITABLE FOR ALL AGES: Money bank makes saving money a fun and rewarding habit for the entire family, both kids and adults",
+        "PREMIUM WOODEN BUILD: Crafted from quality wood with a rich finish, this money bank is sturdy, durable, and doubles as an attractive home décor piece",
+        "THOUGHTFUL GIFT OPTION: Makes a practical gift for birthdays, festivals, and special occasions, encouraging a healthy savings habit in loved ones"
+      ]
+    },
+    {
+      "id": "18",
+      "slug": "2l-hot-water-bag",
+      "sku": "hot water bag",
+      "name": "CB Track hot water bag for pain relief -2 Litre (hot bag for pain relief)",
+      "shortName": "2L Hot Water Bag",
+      "description": "This 2-litre hot water bottle is your trusted companion for natural pain relief and soothing comfort. Crafted from high-quality, skin-friendly natural rubber, this non-electric heating bag provides targeted warmth exactly where you need it most. The therapeutic heat eases tension and melts pain away, making it ideal for relieving body aches, muscle soreness, menstrual pain and cramps, back discomfort, and neck stiffness. The wide mouth design ensures easy filling without spills, whilst the leak-proof cap provides secure closure for worry-free use. Its durable construction retains heat for extended periods, delivering long-lasting relief throughout the day or night. The ribbed surface design enhances heat distribution and adds durability. Available in assorted colours, this hot water bottle offers versatile applications including hot therapy for pain management, cold therapy treatment when filled with ice water, and even preventing chills during cold weather. Whether you're recovering from physical exertion or seeking comfort during monthly cycles, this reliable hot water bottle is an essential addition to your wellness routine.",
+      "price": 174,
+      "compareAt": 599,
+      "category": "water-bag",
+      "collection": "home-essentials",
+      "bestseller": false,
+      "banner": false,
+      "image": "https://m.media-amazon.com/images/I/61AV92oVF9L.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/61AV92oVF9L.jpg",
+        "https://m.media-amazon.com/images/I/71LPSosVTZL.jpg",
+        "https://m.media-amazon.com/images/I/61TxFR6Xi3L.jpg",
+        "https://m.media-amazon.com/images/I/71PWvm65t6L.jpg",
+        "https://m.media-amazon.com/images/I/61ihg8C0ioL.jpg",
+        "https://m.media-amazon.com/images/I/71ChGW8UzQL.jpg"
+      ],
+      "features": [
+        "THERAPEUTIC PAIN RELIEF: Provides soothing heat therapy to relieve body aches, muscle soreness, menstrual pain and cramps, helping ease tension and melt discomfort away",
+        "LARGE 2 LITRE CAPACITY: Generous size holds ample hot water to retain heat for extended periods, delivering long-lasting warmth and comfort where you need it most",
+        "VERSATILE HOT & COLD THERAPY: Can be used with hot water for heat therapy or filled with ice for cold therapy treatment, suitable for various pain relief needs and injury recovery",
+        "LEAK-PROOF DESIGN: Features a wide mouth opening for easy filling and a secure leak-proof cap that prevents spills, ensuring safe and mess-free use throughout the night",
+        "PREMIUM RUBBER CONSTRUCTION: Made from high-quality, skin-friendly natural rubber material that is durable, odourless, and designed to retain heat longer for maximum therapeutic benefit"
+      ]
+    },
+    {
+      "id": "19",
+      "slug": "400-gsm-microfiber-cloth",
+      "sku": "MICROFIBER-CLOTH",
+      "name": "CB Track 1 Piece Multipurpose Microfiber Cleaning Towel Cloth, 400 GSM Extra Thick Microfiber Cleaning Cloths Perfect for Bike Auto Cars Both Interior and Exterior. (40 x 40 cm)",
+      "shortName": "400 GSM Microfiber Cloth",
+      "description": "A Double Sided and Extra Thick Plush Microfiber Cloth / Towel for Car Detailing, Cleaning, Washing and Polishing needs.mMade with Millions of Super Absorbent Microfibers, which absorb 8-10 times liquid of their own weight and quickly grab Dirt, Grime, Grease, Oil and other particles from the surface. Super Fine, Super Soft & Non Abrasive- Will not Scratch the surface and Leaves Lint free and Streak free surface. Safe to use on all kinds of surfaces, such as Paint, Chrome, Plastic, Glass, etc. Use wet or dry, with or without other Cleaning, Washing or Polishing products. REUSABLE & DURABLE】- Easily washable & Reusable for up to 500 times with extreme durability.",
+      "price": 85,
+      "compareAt": 399,
+      "category": "cloth",
+      "collection": "car-motorbike-care",
+      "bestseller": false,
+      "banner": false,
+      "image": "https://m.media-amazon.com/images/I/716cpsn5wcL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/716cpsn5wcL.jpg",
+        "https://m.media-amazon.com/images/I/61QDRZvol2L.jpg",
+        "https://m.media-amazon.com/images/I/71f0TNYs4pL.jpg",
+        "https://m.media-amazon.com/images/I/812AuwyWpIL.jpg",
+        "https://m.media-amazon.com/images/I/71xU8D6qeWL.jpg",
+        "https://m.media-amazon.com/images/I/613l6udopmL.jpg",
+        "https://m.media-amazon.com/images/I/81xJuW9mJ1L.jpg"
+      ],
+      "features": [
+        "EXTRA THICK: 16 inch x 16 inch (40 cm x 40 cm) 400 GSM microfiber cleaning cloths with a double-layer design. Suitable for use in automotive, mechanics, office, boating, RVs, tile, cabinets, and around the home.",
+        "SOFT & LINT FREE: 80% polyester+20% polyamide, these microfiber cleaning rags will not scratch paints, coats or other surfaces, streak-free, lint-free, non-abrasive.",
+        "SUPER ABSORBENT: The microfiber cleaning cloth can absorb 8-10 times its own weight in liquid. Ultra-fine, densely packed fibers form a cleaning surface 40 times greater than that of cotton fibers.",
+        "MULTIPURPOSE TOWELS: Perfect for car cleaning, dusting, and wiping counters. Lint-free, scratch-free, and non-smearing. When wet, they act like a magnet, effortlessly cleaning dirt, wax, grease, and lubricants.",
+        "EASY CARE AND MAINTENANCE: Machine-washable and reusable, saving you money on disposable cleaning products. Maintains softness and effectiveness even after repeated use."
+      ]
+    },
+    {
+      "id": "20",
+      "slug": "expanding-cleaning-sponge",
+      "sku": "Sponge",
+      "name": "CB Track 1 Piece Expanding Super Absorbent Cleaning Sponge, Car Wash Sponge, Lint Free - Scratch Free - Ultra Soft Automobile Cleaning Sponge for Kitchen, car, Bike",
+      "shortName": "Expanding Cleaning Sponge",
+      "description": "Transform your cleaning routine with these vibrant, multi-purpose cleaning sponges. Each sponge features a unique ergonomic shape and highly absorbent design that expands when wet, making it perfect for tackling various cleaning tasks. The pack includes sponges in different colours, helping you designate specific sponges for different cleaning zones. Their versatile nature makes them ideal for kitchen counters, bathroom surfaces, car washing, window cleaning, and general household maintenance. The large size provides excellent coverage for efficient cleaning, while the durable material ensures long-lasting performance. The sponges' porous structure allows for superior liquid absorption and effective dirt removal. Whether you're washing dishes, wiping surfaces, or cleaning your automobile, these sponges deliver consistent results. Their comfortable grip and practical design make cleaning tasks more manageable and effective.",
+      "price": 70,
+      "compareAt": 499,
+      "category": "sponge",
+      "collection": "car-motorbike-care",
+      "bestseller": false,
+      "banner": false,
+      "image": "https://m.media-amazon.com/images/I/51lFdSpvs4L.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/51lFdSpvs4L.jpg",
+        "https://m.media-amazon.com/images/I/51pNgy8whzL.jpg",
+        "https://m.media-amazon.com/images/I/6123OqheWYL.jpg",
+        "https://m.media-amazon.com/images/I/519yX9rozuL.jpg",
+        "https://m.media-amazon.com/images/I/51ETrA9kkdL.jpg",
+        "https://m.media-amazon.com/images/I/61EcL-cRW9L.jpg"
+      ],
+      "features": [
+        "MULTIPURPOSE CLEANING: Super absorbent sponge perfect for cleaning cars, kitchens, windows, floors, and desks with excellent water absorption capability",
+        "EXPANDING DESIGN: Unique expanding structure allows the sponge to increase in size when wet, reaching into corners and crevices effectively",
+        "DUAL TEXTURE: Features both soft and slightly abrasive surfaces for versatile cleaning - gentle enough for delicate surfaces yet effective on tough spots",
+        "COLOUR-CODED: Multiple bright colours help distinguish between different cleaning tasks, preventing cross-contamination between areas",
+        "ERGONOMIC SHAPE: Curved design fits comfortably in hand for extended cleaning sessions while providing maximum surface contact"
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "1",
+      "name": "Rohan Sharma",
+      "quote": "The metal car key cover is nice and offers great protection. Overall, still BEST in Class for the price."
+    },
+    {
+      "id": "2",
+      "name": "Viren",
+      "quote": "The cloth is absolutely fantastic. It can absorb so much more water than the usual ones — makes drying surfaces effortless."
+    },
+    {
+      "id": "3",
+      "name": "Sumit Jain",
+      "quote": "I love my new metal car key cover! Sturdy, premium, and stylish. Protects my key and looks cooler too."
+    }
+  ]
+}
