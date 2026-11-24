@@ -83,6 +83,27 @@ export type CashfreePayment = {
   payment_amount?: number;
 };
 
+const PRODUCTION_APP_URL = "https://cbtrack.in";
+
+export function resolveAppUrl(request: Request) {
+  if (cashfreeMode() === "production") return PRODUCTION_APP_URL;
+
+  const configured = process.env.APP_URL?.trim().replace(/\/$/, "");
+  if (configured) return configured;
+
+  const host = (
+    request.headers.get("x-forwarded-host") ||
+    request.headers.get("host") ||
+    ""
+  )
+    .split(",")[0]
+    .trim();
+  if (!host) return "http://localhost:3000";
+
+  const proto = request.headers.get("x-forwarded-proto")?.split(",")[0].trim() || "http";
+  return `${proto}://${host}`;
+}
+
 export async function createCashfreeOrder(input: {
   orderId: string;
   amount: number;
@@ -90,8 +111,9 @@ export async function createCashfreeOrder(input: {
   customerName: string;
   customerEmail: string;
   customerPhone: string;
+  appUrl: string;
 }) {
-  const appUrl = process.env.APP_URL || "http://localhost:3001";
+  const appUrl = input.appUrl.replace(/\/$/, "");
   return cashfreeFetch<CashfreeOrder>("/orders", {
     method: "POST",
     body: JSON.stringify({

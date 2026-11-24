@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import {
   createCashfreeOrder,
   isCashfreeMock,
+  resolveAppUrl,
 } from "@/lib/cashfree";
 import { prisma } from "@/lib/db";
 import { recordTransaction } from "@/lib/order-store";
@@ -10,7 +11,7 @@ import { publicOrder } from "@/lib/pricing";
 export const runtime = "nodejs";
 
 export async function POST(
-  _request: Request,
+  request: Request,
   { params }: { params: Promise<{ id: string }> },
 ) {
   const { id } = await params;
@@ -44,6 +45,7 @@ export async function POST(
     customerName: order.customerName,
     customerEmail: order.customerEmail,
     customerPhone: order.customerPhone,
+    appUrl: resolveAppUrl(request),
   });
 
   const updated = await prisma.order.update({

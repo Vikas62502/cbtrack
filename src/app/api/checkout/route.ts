@@ -3,6 +3,7 @@ import { prisma } from "@/lib/db";
 import {
   createCashfreeOrder,
   isCashfreeMock,
+  resolveAppUrl,
 } from "@/lib/cashfree";
 import { saveCustomerAndAddress } from "@/lib/order-store";
 import {
@@ -102,6 +103,7 @@ export async function POST(request: Request) {
         customerName: name,
         customerEmail: email,
         customerPhone: phone,
+        appUrl: resolveAppUrl(request),
       });
       paymentSessionId = cfOrder.payment_session_id;
       cashfreeOrderId = cfOrder.order_id;
