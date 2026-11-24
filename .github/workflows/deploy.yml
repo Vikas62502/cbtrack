@@ -31,12 +31,12 @@ jobs:
           username: ${{ secrets.HOSTINGER_USER }}
           key: ${{ secrets.HOSTINGER_SSH_KEY }}
           script: |
-            sudo docker pull ${{ secrets.DOCKER_USERNAME }}/cbtrack:latest
-            sudo docker stop cbtrack || true && sudo docker rm cbtrack || true
-            sudo docker run -d \
+            docker pull ${{ secrets.DOCKER_USERNAME }}/cbtrack:latest
+            docker stop cbtrack || true && docker rm cbtrack || true
+            docker run -d \
               --name cbtrack \
               --restart unless-stopped \
-              -p 3001:3000 \
+              -p 3010:3000 \
               -e DB_HOST=${{ secrets.DB_HOST }} \
               -e DB_PORT=${{ secrets.DB_PORT }} \
               -e DB_NAME=${{ secrets.DB_NAME }} \
