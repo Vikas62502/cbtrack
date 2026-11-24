@@ -22,7 +22,7 @@ export default function AddToCartActions({ product }: { product: Product }) {
 
   return (
     <div className="rounded-3xl bg-[var(--sand)] p-6 md:p-8">
-      <h1 className="font-[family-name:var(--font-display)] text-2xl font-semibold leading-snug text-[var(--ink)] md:text-3xl">
+      <h1 className="text-xl font-semibold leading-snug tracking-tight text-[var(--ink)] md:text-2xl">
         {product.name}
       </h1>
 

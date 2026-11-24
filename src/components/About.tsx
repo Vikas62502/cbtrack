@@ -12,7 +12,7 @@ export default function About() {
         />
       </div>
       <div>
-        <h2 className="font-[family-name:var(--font-display)] text-3xl font-semibold text-[var(--ink)] md:text-4xl">
+        <h2 className="text-xl font-semibold tracking-tight text-[var(--ink)] md:text-2xl">
           About US
         </h2>
         <p className="mt-4 text-[15px] leading-relaxed text-[var(--muted)]">

@@ -4,6 +4,7 @@ import {
   createCashfreeOrder,
   isCashfreeMock,
 } from "@/lib/cashfree";
+import { saveCustomerAndAddress } from "@/lib/order-store";
 import {
   normalizePhone,
   priceCart,
@@ -106,9 +107,22 @@ export async function POST(request: Request) {
       cashfreeOrderId = cfOrder.order_id;
     }
 
+    const { customer, address } = await saveCustomerAndAddress({
+      name,
+      email,
+      phone,
+      addressLine1,
+      addressLine2,
+      city,
+      state,
+      pincode,
+    });
+
     const order = await prisma.order.create({
       data: {
         id: orderId,
+        customerId: customer.id,
+        addressId: address.id,
         status: "pending",
         paymentStatus: "PENDING",
         subtotal: priced.subtotal,
@@ -125,6 +139,16 @@ export async function POST(request: Request) {
         pincode,
         cashfreeOrderId,
         paymentSessionId,
+        transactions: {
+          create: {
+            amount: priced.total,
+            currency: "INR",
+            status: "PENDING",
+            provider: mock ? "mock" : "cashfree",
+            cashfreeOrderId,
+            paymentSessionId,
+          },
+        },
         items: {
           create: priced.lines.map((line) => ({
             productId: line.productId,

@@ -24,7 +24,7 @@ export default function BrandLogo({
         width={508}
         height={170}
         priority={priority}
-        className={`h-14 w-auto max-w-[240px] object-contain object-left sm:h-16 sm:max-w-[300px] md:h-[4.5rem] md:max-w-[360px] ${
+        className={`h-11 w-auto max-w-[210px] object-contain object-left sm:h-12 sm:max-w-[240px] md:h-14 md:max-w-[280px] ${
           inverted ? "brightness-0 invert" : ""
         }`}
       />

@@ -13,14 +13,14 @@ type Props = {
 
 export default function ProductRail({ title, subtitle, products, id }: Props) {
   return (
-    <section id={id} className="site-width scroll-mt-28 py-12 md:py-14">
-      <div className="mb-6 flex flex-col items-start justify-between gap-3 sm:mb-8 sm:flex-row sm:items-end">
-        <div>
-          <h2 className="font-[family-name:var(--font-display)] text-2xl font-semibold text-[var(--ink)] sm:text-3xl md:text-4xl">
+    <section id={id} className="site-width scroll-mt-28 py-8 md:py-10">
+      <div className="mb-4 flex items-start justify-between gap-4 md:mb-5">
+        <div className="min-w-0">
+          <h2 className="text-xl font-semibold tracking-tight text-[var(--ink)] md:text-2xl">
             {title}
           </h2>
           {subtitle && (
-            <p className="mt-2 max-w-xl text-sm text-[var(--muted)] md:text-base">
+            <p className="mt-1 max-w-2xl text-sm leading-relaxed text-[var(--muted)]">
               {subtitle}
             </p>
           )}
@@ -28,7 +28,7 @@ export default function ProductRail({ title, subtitle, products, id }: Props) {
         {id && (
           <Link
             href={`/categories/${id}`}
-            className="text-sm font-semibold text-[var(--navy)] hover:underline"
+            className="mt-1 shrink-0 text-sm font-medium text-[var(--navy)] hover:underline"
           >
             View all →
           </Link>

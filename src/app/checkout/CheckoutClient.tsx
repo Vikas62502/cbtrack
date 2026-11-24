@@ -173,7 +173,7 @@ export default function CheckoutClient() {
   if (itemCount === 0) {
     return (
       <div className="site-width py-20 text-center">
-        <h1 className="font-[family-name:var(--font-display)] text-3xl font-semibold">
+        <h1 className="text-2xl tracking-tight md:text-3xl font-semibold">
           Your cart is empty
         </h1>
         <p className="mt-3 text-[var(--muted)]">Add products before checkout.</p>
@@ -193,7 +193,7 @@ export default function CheckoutClient() {
       className="site-width grid gap-8 py-10 lg:grid-cols-[1.3fr_0.7fr]"
     >
       <div>
-        <h1 className="mb-6 font-[family-name:var(--font-display)] text-3xl font-semibold">
+        <h1 className="mb-6 text-2xl tracking-tight md:text-3xl font-semibold">
           Checkout
         </h1>
         <div className="space-y-4 rounded-3xl border border-black/6 bg-white p-5 md:p-6">
@@ -244,7 +244,7 @@ export default function CheckoutClient() {
       </div>
 
       <aside className="h-fit rounded-3xl bg-[var(--sand)] p-6">
-        <h2 className="font-[family-name:var(--font-display)] text-2xl font-semibold">
+        <h2 className="text-lg tracking-tight md:text-xl font-semibold">
           Pay securely
         </h2>
         <ul className="mt-4 space-y-3 text-sm">

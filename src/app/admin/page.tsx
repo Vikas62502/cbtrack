@@ -73,7 +73,7 @@ export default function AdminOrdersPage() {
   if (!orders) {
     return (
       <form onSubmit={onLogin} className="site-width max-w-md py-16">
-        <h1 className="font-[family-name:var(--font-display)] text-3xl font-semibold">
+        <h1 className="text-2xl tracking-tight md:text-3xl font-semibold">
           Store admin
         </h1>
         <p className="mt-2 text-sm text-[var(--muted)]">
@@ -98,7 +98,7 @@ export default function AdminOrdersPage() {
 
   return (
     <div className="site-width py-10">
-      <h1 className="font-[family-name:var(--font-display)] text-3xl font-semibold">
+      <h1 className="text-2xl tracking-tight md:text-3xl font-semibold">
         Orders
       </h1>
       <div className="mt-6 overflow-x-auto rounded-2xl border border-black/6 bg-white">

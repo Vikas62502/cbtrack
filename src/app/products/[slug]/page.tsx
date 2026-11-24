@@ -43,7 +43,7 @@ export default async function ProductDetailPage({ params }: Props) {
 
       {related.length > 0 && (
         <section className="mt-16">
-          <h2 className="mb-6 font-[family-name:var(--font-display)] text-2xl font-semibold text-[var(--ink)] md:text-3xl">
+          <h2 className="mb-6 tracking-tight text-2xl font-semibold text-[var(--ink)] md:text-3xl">
             You may also like
           </h2>
           <div className="product-grid">

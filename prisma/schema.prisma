@@ -3,38 +3,78 @@ generator client {
 }
 
 datasource db {
-  provider = "sqlite"
+  provider = "postgresql"
   url      = env("DATABASE_URL")
 }
 
+model Customer {
+  id        String    @id @default(cuid())
+  name      String
+  email     String
+  phone     String    @unique
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  addresses Address[]
+  orders    Order[]
+
+  @@index([email])
+  @@map("customers")
+}
+
+model Address {
+  id         String   @id @default(cuid())
+  customerId String
+  customer   Customer @relation(fields: [customerId], references: [id], onDelete: Cascade)
+  line1      String
+  line2      String   @default("")
+  city       String
+  state      String
+  pincode    String
+  createdAt  DateTime @default(now())
+  orders     Order[]
+
+  @@index([customerId, createdAt])
+  @@map("addresses")
+}
+
 model Order {
-  id               String      @id
-  status           String      @default("pending")
-  paymentStatus    String      @default("PENDING")
-  subtotal         Int
-  discount         Int         @default(0)
-  total            Int
-  couponCode       String?
-  customerName     String
-  customerEmail    String
-  customerPhone    String
-  addressLine1     String
-  addressLine2     String      @default("")
-  city             String
-  state            String
-  pincode          String
-  cashfreeOrderId  String?
-  paymentSessionId String?
-  cfPaymentId      String?
-  paymentMethod      String?
-  fulfillmentStatus  String      @default("none")
-  trackingNumber     String?
-  notes              String?
-  createdAt          DateTime    @default(now())
-  updatedAt          DateTime    @updatedAt
-  paidAt             DateTime?
-  shippedAt          DateTime?
-  items              OrderItem[]
+  id                String        @id
+  customerId        String
+  customer          Customer      @relation(fields: [customerId], references: [id])
+  addressId         String
+  address           Address       @relation(fields: [addressId], references: [id])
+  status            String        @default("pending")
+  paymentStatus     String        @default("PENDING")
+  subtotal          Int
+  discount          Int           @default(0)
+  total             Int
+  couponCode        String?
+  customerName      String
+  customerEmail     String
+  customerPhone     String
+  addressLine1      String
+  addressLine2      String        @default("")
+  city              String
+  state             String
+  pincode           String
+  cashfreeOrderId   String?
+  paymentSessionId  String?
+  cfPaymentId       String?
+  paymentMethod     String?
+  fulfillmentStatus String        @default("none")
+  trackingNumber    String?
+  notes             String?
+  createdAt         DateTime      @default(now())
+  updatedAt         DateTime      @updatedAt
+  paidAt            DateTime?
+  shippedAt         DateTime?
+  items             OrderItem[]
+  transactions      Transaction[]
+
+  @@index([customerId])
+  @@index([customerPhone])
+  @@index([createdAt])
+  @@map("orders")
 }
 
 model OrderItem {
@@ -48,4 +88,27 @@ model OrderItem {
   unitPrice Int
   quantity  Int
   lineTotal Int
+
+  @@map("order_items")
+}
+
+model Transaction {
+  id               String    @id @default(cuid())
+  orderId          String
+  order            Order     @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  amount           Int
+  currency         String    @default("INR")
+  status           String    @default("PENDING")
+  provider         String    @default("cashfree")
+  cashfreeOrderId  String?
+  paymentSessionId String?
+  cfPaymentId      String?
+  paymentMethod    String?
+  createdAt        DateTime  @default(now())
+  updatedAt        DateTime  @updatedAt
+  paidAt           DateTime?
+
+  @@index([orderId, createdAt])
+  @@index([cashfreeOrderId])
+  @@map("transactions")
 }

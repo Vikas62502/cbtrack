@@ -68,7 +68,7 @@ export default function TrackClient() {
 
   return (
     <div className="site-width max-w-xl py-12">
-      <h1 className="font-[family-name:var(--font-display)] text-3xl font-semibold">
+      <h1 className="tracking-tight text-3xl font-semibold">
         Track your order
       </h1>
       <p className="mt-2 text-sm text-[var(--muted)]">

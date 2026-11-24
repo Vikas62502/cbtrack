@@ -40,7 +40,7 @@ export default async function CategoryPage({ params }: Props) {
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-black/15" />
         <div className="relative flex h-full flex-col justify-end px-6 py-8 text-white md:px-10 md:py-12">
-          <h1 className="font-[family-name:var(--font-display)] text-3xl font-semibold md:text-5xl">
+          <h1 className="text-3xl font-semibold tracking-tight md:text-4xl">
             {category.name}
           </h1>
           <p className="mt-2 max-w-xl text-sm text-white/80 md:text-base">

@@ -6,7 +6,7 @@ export const CASHFREE_API_VERSION =
 export function isCashfreeMock() {
   if (process.env.CASHFREE_MOCK === "true") return true;
   if (process.env.CASHFREE_MOCK === "false") return false;
-  return !process.env.CASHFREE_CLIENT_ID || !process.env.CASHFREE_CLIENT_SECRET;
+  return !cashfreeAppId() || !cashfreeSecret();
 }
 
 export function cashfreeMode(): "sandbox" | "production" {
@@ -19,12 +19,20 @@ function cashfreeBaseUrl() {
     : "https://sandbox.cashfree.com/pg";
 }
 
+function cashfreeAppId() {
+  return process.env.CASHFREE_APP_ID || process.env.CASHFREE_CLIENT_ID;
+}
+
+function cashfreeSecret() {
+  return process.env.CASHFREE_SECRET_KEY || process.env.CASHFREE_CLIENT_SECRET;
+}
+
 function requiredCredentials() {
-  const appId = process.env.CASHFREE_CLIENT_ID;
-  const secret = process.env.CASHFREE_CLIENT_SECRET;
+  const appId = cashfreeAppId();
+  const secret = cashfreeSecret();
   if (!appId || !secret) {
     throw new Error(
-      "Cashfree keys are missing. Add CASHFREE_CLIENT_ID and CASHFREE_CLIENT_SECRET.",
+      "Cashfree keys are missing. Add CASHFREE_APP_ID and CASHFREE_SECRET_KEY.",
     );
   }
   return { appId, secret };
@@ -121,7 +129,7 @@ export function verifyCashfreeWebhook(
   rawBody: string,
 ) {
   if (!signature || !timestamp) return false;
-  const secret = process.env.CASHFREE_CLIENT_SECRET;
+  const secret = cashfreeSecret();
   if (!secret) return false;
   const expected = createHmac("sha256", secret)
     .update(timestamp + rawBody)

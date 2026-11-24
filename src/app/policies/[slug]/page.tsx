@@ -63,7 +63,7 @@ export default async function PolicyPage({ params }: Props) {
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-12 md:px-6">
-      <h1 className="font-[family-name:var(--font-display)] text-3xl font-semibold text-[var(--ink)] md:text-4xl">
+      <h1 className="text-2xl font-semibold tracking-tight text-[var(--ink)] md:text-3xl">
         {policy.title}
       </h1>
       <ul className="mt-6 space-y-4">

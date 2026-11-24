@@ -45,7 +45,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50">
       <div className="bg-[var(--cream)] border-b border-black/5">
-        <div className="site-width flex items-center gap-4 py-3.5 md:gap-8 md:py-4">
+        <div className="site-width flex items-center gap-4 py-3 md:gap-6 md:py-3.5">
           <BrandLogo priority />
 
           <form
@@ -60,18 +60,18 @@ export default function Header() {
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               placeholder="Search anything..."
-              className="w-full rounded-full border border-black/15 bg-white px-5 py-2.5 text-sm text-[var(--ink)] outline-none transition focus:border-[var(--navy)] focus:ring-2 focus:ring-[var(--navy)]/15"
+              className="h-11 w-full rounded-full border border-black/10 bg-white px-4 text-sm text-[var(--ink)] outline-none transition placeholder:text-[var(--muted)] focus:border-[var(--navy)] focus:ring-2 focus:ring-[var(--navy)]/15"
             />
           </form>
 
           <div className="ml-auto flex shrink-0 items-center gap-2 sm:gap-3">
             <Link
               href="/cart"
-              className="relative rounded-full p-2.5 text-[var(--ink)] transition hover:bg-black/5"
+              className="relative rounded-full p-2 text-[var(--ink)] transition hover:bg-black/5"
               aria-label={`Cart, ${itemCount} items`}
             >
               <svg
-                className="h-8 w-8 md:h-9 md:w-9"
+                className="h-6 w-6"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -92,7 +92,7 @@ export default function Header() {
 
             <Link
               href="/orders/track"
-              className="hidden text-sm font-medium text-[var(--ink)] sm:inline"
+              className="hidden text-sm font-medium text-[var(--ink)] sm:inline hover:text-[var(--navy)]"
             >
               Track order
             </Link>
@@ -132,7 +132,7 @@ export default function Header() {
           ref={dropdownRef}
           className="relative hidden border-t border-black/5 md:block"
         >
-          <ul className="site-width flex items-center justify-start gap-8 py-3 font-[family-name:var(--font-display)] text-[15px] text-[var(--ink)] lg:gap-12 lg:text-base xl:gap-16">
+          <ul className="site-width flex items-center gap-6 py-2.5 text-sm font-medium text-[var(--ink)] lg:gap-8">
             <li>
               <Link href="/#cleaning-kit" className="hover:text-[var(--navy)]">
                 Shop by Category
@@ -210,7 +210,7 @@ export default function Header() {
                 className="w-full rounded-full border border-black/15 bg-white px-4 py-2.5 text-sm outline-none"
               />
             </form>
-            <div className="flex flex-col gap-1 font-[family-name:var(--font-display)]">
+            <div className="flex flex-col gap-1 text-sm font-medium">
               <Link href="/#cleaning-kit" className="rounded-lg px-3 py-2.5 hover:bg-black/5">
                 Shop by Category
               </Link>
@@ -237,7 +237,7 @@ export default function Header() {
         )}
       </div>
 
-      <div className="bg-[var(--sand)] py-2 text-center text-[13px] text-[var(--ink)]">
+      <div className="bg-[var(--sand)] py-2 text-center text-[13px] font-medium leading-5 text-[var(--ink)]">
         Get 10% off on first order use{" "}
         <span className="font-semibold">&quot;CBTRACK10&quot;</span> code at
         checkout

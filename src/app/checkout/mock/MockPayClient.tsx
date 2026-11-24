@@ -34,13 +34,13 @@ export default function MockPayClient() {
 
   return (
     <div className="site-width max-w-lg py-16">
-      <h1 className="font-[family-name:var(--font-display)] text-3xl font-semibold">
+      <h1 className="tracking-tight text-3xl font-semibold">
         Test payment
       </h1>
       <p className="mt-3 text-sm text-[var(--muted)]">
         Cashfree sandbox keys are not set, so this local test checkout is used.
-        Add <code>CASHFREE_CLIENT_ID</code> and{" "}
-        <code>CASHFREE_CLIENT_SECRET</code> in <code>.env.local</code> and set{" "}
+        Add <code>CASHFREE_APP_ID</code> and{" "}
+        <code>CASHFREE_SECRET_KEY</code> in <code>.env</code> and set{" "}
         <code>CASHFREE_MOCK=false</code> for live Cashfree checkout.
       </p>
       <p className="mt-4 text-sm">

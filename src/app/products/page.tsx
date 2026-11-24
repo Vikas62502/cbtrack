@@ -24,7 +24,7 @@ export default async function ProductsPage({ searchParams }: Props) {
   return (
     <div className="site-width py-10">
       <div className="mb-8">
-        <h1 className="font-[family-name:var(--font-display)] text-3xl font-semibold text-[var(--ink)] md:text-4xl">
+        <h1 className="text-2xl font-semibold tracking-tight text-[var(--ink)] md:text-3xl">
           {collectionName || (params.q ? `Results for “${params.q}”` : "All Products")}
         </h1>
         <p className="mt-2 text-sm text-[var(--muted)]">

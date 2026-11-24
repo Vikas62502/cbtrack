@@ -4,7 +4,7 @@ export default function Testimonials() {
   return (
     <section className="bg-[var(--cream)] py-14">
       <div className="site-width">
-        <h2 className="mb-8 text-center font-[family-name:var(--font-display)] text-3xl font-semibold text-[var(--ink)] md:text-4xl">
+        <h2 className="mb-6 text-center text-xl font-semibold tracking-tight text-[var(--ink)] md:text-2xl">
           What our customers say
         </h2>
         <div className="grid gap-5 md:grid-cols-3">

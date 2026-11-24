@@ -113,7 +113,7 @@ export default function StatusClient() {
       <p className="text-sm font-semibold uppercase tracking-wide text-[var(--navy)]">
         {paid ? "Payment successful" : failed ? "Payment failed" : "Payment pending"}
       </p>
-      <h1 className="mt-2 font-[family-name:var(--font-display)] text-3xl font-semibold">
+      <h1 className="mt-2 tracking-tight text-3xl font-semibold">
         {paid ? "Thank you for your order" : "We could not confirm payment yet"}
       </h1>
       <p className="mt-3 text-sm text-[var(--muted)]">

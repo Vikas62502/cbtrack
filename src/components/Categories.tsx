@@ -4,23 +4,26 @@ import { categories } from "@/data/products";
 export default function Categories() {
   return (
     <section className="site-width py-8 md:py-10">
-      <div className="grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-4 md:gap-4">
+      <h2 className="mb-4 text-xl font-semibold tracking-tight text-[var(--ink)] md:text-2xl">
+        Shop by category
+      </h2>
+      <div className="grid grid-cols-2 items-stretch gap-3 sm:grid-cols-3 sm:gap-4">
         {categories.map((c) => (
           <Link
             key={c.id}
             href={`/categories/${c.slug}`}
-            className="group overflow-hidden rounded-xl border border-black/6 bg-white shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
+            className="group flex h-full flex-col overflow-hidden rounded-xl border border-black/8 bg-white transition hover:-translate-y-0.5 hover:shadow-md"
           >
-            <div className="relative h-28 overflow-hidden bg-white sm:h-32 md:h-36">
+            <div className="flex h-32 items-center justify-center bg-white px-4 sm:h-36 md:h-40">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={c.image}
                 alt={c.name}
-                className="h-full w-full object-contain p-3 transition duration-500 group-hover:scale-105"
+                className="max-h-[6.5rem] w-auto max-w-full object-contain transition duration-300 group-hover:scale-105 md:max-h-32"
               />
             </div>
-            <div className="border-t border-black/5 px-2 py-2 text-center">
-              <h3 className="font-[family-name:var(--font-display)] text-sm font-semibold text-[var(--ink)] md:text-base">
+            <div className="mt-auto flex h-11 items-center justify-center border-t border-black/6 px-3">
+              <h3 className="text-center text-[13px] font-medium leading-tight text-[var(--ink)] md:text-sm">
                 {c.name}
               </h3>
             </div>

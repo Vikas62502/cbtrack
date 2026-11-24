@@ -6,7 +6,7 @@ export default function Collections() {
     <section className="bg-[var(--cream-deep)] py-14">
       <div className="site-width">
         <div className="mb-8 text-center">
-          <h2 className="font-[family-name:var(--font-display)] text-3xl font-semibold text-[var(--ink)] md:text-4xl">
+          <h2 className="text-xl font-semibold tracking-tight text-[var(--ink)] md:text-2xl">
             Shop by Collection
           </h2>
           <p className="mt-2 text-sm text-[var(--muted)]">
@@ -29,7 +29,7 @@ export default function Collections() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/25 to-transparent" />
               <div className="absolute inset-x-0 bottom-0 p-6">
-                <h3 className="font-[family-name:var(--font-display)] text-2xl font-semibold text-white md:text-3xl">
+                <h3 className="text-xl font-semibold tracking-tight text-white md:text-2xl">
                   {c.name}
                 </h3>
                 <span className="mt-2 inline-block text-sm text-white/80 transition group-hover:translate-x-1">

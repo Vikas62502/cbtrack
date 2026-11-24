@@ -4,6 +4,7 @@ import {
   verifyCashfreeWebhook,
 } from "@/lib/cashfree";
 import { prisma } from "@/lib/db";
+import { recordTransaction } from "@/lib/order-store";
 
 export const runtime = "nodejs";
 
@@ -47,21 +48,33 @@ export async function POST(request: Request) {
   }
 
   const mapped = mapPaymentStatus(payload.data?.payment?.payment_status);
+  const paidAt = mapped.status === "paid" ? new Date() : null;
+  const cfPaymentId = payload.data?.payment?.cf_payment_id
+    ? String(payload.data.payment.cf_payment_id)
+    : null;
   await prisma.order.update({
     where: { id: existing.id },
     data: {
       status: mapped.status,
       paymentStatus: mapped.paymentStatus,
-      cfPaymentId: payload.data?.payment?.cf_payment_id
-        ? String(payload.data.payment.cf_payment_id)
-        : undefined,
+      cfPaymentId: cfPaymentId || undefined,
       paymentMethod: payload.data?.payment?.payment_group || undefined,
-      paidAt: mapped.status === "paid" ? new Date() : undefined,
+      paidAt: paidAt || undefined,
       fulfillmentStatus:
         mapped.status === "paid" && existing.fulfillmentStatus === "none"
           ? "processing"
           : undefined,
     },
+  });
+  await recordTransaction({
+    orderId: existing.id,
+    amount: existing.total,
+    status: mapped.paymentStatus,
+    provider: "cashfree",
+    cashfreeOrderId: existing.cashfreeOrderId,
+    cfPaymentId,
+    paymentMethod: payload.data?.payment?.payment_group,
+    paidAt,
   });
 
   return NextResponse.json({ ok: true });

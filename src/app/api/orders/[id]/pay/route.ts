@@ -4,6 +4,7 @@ import {
   isCashfreeMock,
 } from "@/lib/cashfree";
 import { prisma } from "@/lib/db";
+import { recordTransaction } from "@/lib/order-store";
 import { publicOrder } from "@/lib/pricing";
 
 export const runtime = "nodejs";
@@ -54,6 +55,14 @@ export async function POST(
       paymentSessionId: cfOrder.payment_session_id,
     },
     include: { items: true },
+  });
+  await recordTransaction({
+    orderId: order.id,
+    amount: order.total,
+    status: "PENDING",
+    provider: "cashfree",
+    cashfreeOrderId: cfOrder.order_id,
+    paymentSessionId: cfOrder.payment_session_id,
   });
 
   return NextResponse.json({
