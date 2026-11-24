@@ -47,6 +47,8 @@ jobs:
               -e CASHFREE_MOCK=false \
               -e CASHFREE_ENV=production \
               -e CASHFREE_API_VERSION=${{ secrets.CASHFREE_API_VERSION }} \
-              -e CASHFREE_APP_ID=${{ secrets.CASHFREE_APP_ID }} \
-              -e CASHFREE_SECRET_KEY=${{ secrets.CASHFREE_SECRET_KEY }} \
+              -e CASHFREE_APP_ID=${{ secrets.CASHFREE_CLIENT_ID }} \
+              -e CASHFREE_SECRET_KEY=${{ secrets.CASHFREE_CLIENT_SECRET }} \
+              -e CASHFREE_CLIENT_ID=${{ secrets.CASHFREE_CLIENT_ID }} \
+              -e CASHFREE_CLIENT_SECRET=${{ secrets.CASHFREE_CLIENT_SECRET }} \
               ${{ secrets.DOCKER_USERNAME }}/cbtrack:latest
