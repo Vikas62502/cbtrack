@@ -5,7 +5,11 @@ import { formatINR } from "@/data/products";
 import { useCart } from "@/lib/cart-context";
 
 export default function CartPage() {
-  const { lines, subtotal, updateQuantity, removeItem, itemCount } = useCart();
+  const { ready, lines, subtotal, updateQuantity, removeItem, itemCount } = useCart();
+
+  if (!ready) {
+    return <div className="site-width py-20 text-center text-[var(--muted)]">Loading cart…</div>;
+  }
 
   if (itemCount === 0) {
     return (
@@ -108,12 +112,12 @@ export default function CartPage() {
         <p className="mt-3 text-xs text-[var(--muted)]">
           Use code <strong>CBTRACK10</strong> for 10% off your first order.
         </p>
-        <button
-          type="button"
-          className="mt-5 w-full rounded-full bg-[var(--navy)] py-3.5 text-sm font-semibold text-white hover:bg-[var(--navy-deep)]"
+        <Link
+          href="/checkout"
+          className="mt-5 block w-full rounded-full bg-[var(--navy)] py-3.5 text-center text-sm font-semibold text-white hover:bg-[var(--navy-deep)]"
         >
           Proceed to Checkout
-        </button>
+        </Link>
         <Link
           href="/products"
           className="mt-3 block text-center text-sm text-[var(--navy)] hover:underline"

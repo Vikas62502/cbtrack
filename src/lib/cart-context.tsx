@@ -17,6 +17,7 @@ export type CartItem = {
 };
 
 type CartContextValue = {
+  ready: boolean;
   items: CartItem[];
   addItem: (productId: string, quantity?: number) => void;
   removeItem: (productId: string) => void;
@@ -29,6 +30,14 @@ type CartContextValue = {
 
 const CartContext = createContext<CartContextValue | null>(null);
 const STORAGE_KEY = "proofiito-cart";
+
+function persistCart(items: CartItem[]) {
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
+  } catch {
+    /* ignore */
+  }
+}
 
 export function CartProvider({ children }: { children: ReactNode }) {
   const [items, setItems] = useState<CartItem[]>([]);
@@ -52,14 +61,15 @@ export function CartProvider({ children }: { children: ReactNode }) {
   const addItem = useCallback((productId: string, quantity = 1) => {
     setItems((prev) => {
       const existing = prev.find((i) => i.productId === productId);
-      if (existing) {
-        return prev.map((i) =>
-          i.productId === productId
-            ? { ...i, quantity: i.quantity + quantity }
-            : i,
-        );
-      }
-      return [...prev, { productId, quantity }];
+      const next = existing
+        ? prev.map((i) =>
+            i.productId === productId
+              ? { ...i, quantity: i.quantity + quantity }
+              : i,
+          )
+        : [...prev, { productId, quantity }];
+      persistCart(next);
+      return next;
     });
   }, []);
 
@@ -109,6 +119,7 @@ export function CartProvider({ children }: { children: ReactNode }) {
 
   const value = useMemo(
     () => ({
+      ready: hydrated,
       items,
       addItem,
       removeItem,
@@ -119,6 +130,7 @@ export function CartProvider({ children }: { children: ReactNode }) {
       lines,
     }),
     [
+      hydrated,
       items,
       addItem,
       removeItem,

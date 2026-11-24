@@ -92,7 +92,10 @@ export default function AddToCartActions({ product }: { product: Product }) {
         </button>
         <button
           type="button"
-          onClick={handleAdd}
+          onClick={() => {
+            addItem(product.id, qty);
+            window.location.assign("/checkout");
+          }}
           className="flex-1 rounded-full bg-[var(--navy)] px-6 py-3.5 text-sm font-semibold text-white transition hover:bg-[var(--navy-deep)]"
         >
           Buy Now

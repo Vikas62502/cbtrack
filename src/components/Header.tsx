@@ -90,12 +90,12 @@ export default function Header() {
               )}
             </Link>
 
-            <button
-              type="button"
+            <Link
+              href="/orders/track"
               className="hidden text-sm font-medium text-[var(--ink)] sm:inline"
             >
-              Sign In
-            </button>
+              Track order
+            </Link>
 
             <button
               type="button"
@@ -228,6 +228,9 @@ export default function Header() {
               </Link>
               <Link href="/cart" className="rounded-lg px-3 py-2.5 hover:bg-black/5">
                 Cart ({itemCount})
+              </Link>
+              <Link href="/orders/track" className="rounded-lg px-3 py-2.5 hover:bg-black/5">
+                Track order
               </Link>
             </div>
           </div>

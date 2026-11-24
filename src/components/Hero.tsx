@@ -60,14 +60,15 @@ export default function Hero() {
         <div className="absolute inset-0 bg-gradient-to-r from-black/75 via-black/45 to-black/20 md:via-black/40 md:to-transparent" />
 
         <div className="site-width relative z-10 flex min-h-[440px] flex-col justify-end pb-16 pt-10 md:min-h-[560px] md:justify-center md:pb-20 lg:min-h-[640px] xl:min-h-[72vh]">
+          <div className="max-w-xl pl-12 sm:pl-14 md:pl-16">
           <p className="text-xs font-semibold uppercase tracking-[0.22em] text-white/70">
             Featured · {slide.category.replace(/-/g, " ")}
           </p>
-          <h1 className="mt-2 max-w-xl font-[family-name:var(--font-display)] text-3xl font-semibold leading-tight text-white sm:text-4xl md:text-5xl">
+          <h1 className="mt-2 font-[family-name:var(--font-display)] text-3xl font-semibold leading-tight text-white sm:text-4xl md:text-5xl">
             {slide.shortName}
           </h1>
           <div className="mt-4 flex flex-wrap items-baseline gap-3 text-white">
-            <span className="text-2xl font-bold md:text-3xl">
+            <span className="text-2xl font-bold tabular-nums md:text-3xl">
               {formatINR(slide.price)}
             </span>
             <span className="text-sm text-white/55 line-through md:text-base">
@@ -91,6 +92,7 @@ export default function Hero() {
               View category
             </Link>
           </div>
+          </div>
         </div>
       </div>
 
@@ -100,7 +102,7 @@ export default function Hero() {
             type="button"
             aria-label="Previous banner"
             onClick={() => go(-1)}
-            className="absolute left-2 top-1/2 z-20 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-white/90 text-xl text-[var(--ink)] shadow sm:left-4 md:h-12 md:w-12"
+            className="absolute left-3 top-[58%] z-20 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-white/35 text-xl text-white shadow-sm backdrop-blur-[2px] transition hover:bg-white/55 sm:left-5 md:h-12 md:w-12"
           >
             ‹
           </button>
@@ -108,7 +110,7 @@ export default function Hero() {
             type="button"
             aria-label="Next banner"
             onClick={() => go(1)}
-            className="absolute right-2 top-1/2 z-20 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-white/90 text-xl text-[var(--ink)] shadow sm:right-4 md:h-12 md:w-12"
+            className="absolute right-3 top-[58%] z-20 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-white/35 text-xl text-white shadow-sm backdrop-blur-[2px] transition hover:bg-white/55 sm:right-5 md:h-12 md:w-12"
           >
             ›
           </button>
