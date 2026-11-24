@@ -26,23 +26,28 @@ export default function Footer() {
           </h6>
           <ul className="mt-4 space-y-2 text-sm text-white/80">
             <li>
-              <Link href="/policies/store" className="hover:text-white">
-                Store Policies
+              <Link href="/policies/contact" className="hover:text-white">
+                Contact Us
               </Link>
             </li>
             <li>
-              <Link href="/orders/track" className="hover:text-white">
-                Track your Order
+              <Link href="/policies/terms" className="hover:text-white">
+                Terms & Conditions
               </Link>
             </li>
             <li>
-              <Link href="/policies/return" className="hover:text-white">
-                Return Policy
+              <Link href="/policies/refunds" className="hover:text-white">
+                Refunds & Cancellations
               </Link>
             </li>
             <li>
               <Link href="/policies/privacy" className="hover:text-white">
                 Privacy Policy
+              </Link>
+            </li>
+            <li>
+              <Link href="/orders/track" className="hover:text-white">
+                Track your Order
               </Link>
             </li>
           </ul>

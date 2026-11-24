@@ -28,7 +28,7 @@ export default async function ProductsPage({ searchParams }: Props) {
           {collectionName || (params.q ? `Results for “${params.q}”` : "All Products")}
         </h1>
         <p className="mt-2 text-sm text-[var(--muted)]">
-          {list.length} product{list.length === 1 ? "" : "s"}
+          {`${list.length} product${list.length === 1 ? "" : "s"}. All prices are in INR (₹).`}
         </p>
       </div>
 
