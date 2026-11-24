@@ -10,6 +10,14 @@ export default function HomePage() {
 
   return (
     <>
+      <section className="border-b border-black/5 bg-white">
+        <p className="site-width py-4 text-sm leading-relaxed text-[var(--ink)]">
+          Chairbord Pvt Ltd sells FASTag, GPS devices, and vehicle accessories.
+          CB Track is our store for car key covers, cleaning kits, dusters,
+          brushes, microfiber cloths, sponges, and tag holders. Prices are in
+          INR (₹). This is the same business as chairbord.in.
+        </p>
+      </section>
       <Hero />
       <Categories />
       {sections.map(({ category, products }) => (

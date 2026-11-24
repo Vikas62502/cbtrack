@@ -9,14 +9,21 @@ export default function Footer() {
         <div>
           <BrandLogo inverted />
           <p className="mt-3 max-w-sm text-sm leading-relaxed text-white/70">
-            CB Trackel, PLOT NO. 10 SHRI SHYAM VIHAR KARDHANI JAIPUR, KARDHANI,
-            Rajasthan, 302012
+            Chairbord Pvt Ltd, 13 Sapna Tower, near Marudhar Mart, Kalwar Road,
+            Govindpura, Jaipur, Rajasthan 302012. FASTag, GPS, and vehicle
+            accessories. Prices in INR.
           </p>
           <a
-            href="tel:+917453014747"
-            className="mt-4 inline-block text-sm text-white/90 hover:text-white"
+            href="mailto:connect@chairbord.com"
+            className="mt-4 block text-sm text-white/90 hover:text-white"
           >
-            Talk to us · +91 7453014747
+            connect@chairbord.com
+          </a>
+          <a
+            href="tel:+919269666646"
+            className="mt-1 inline-block text-sm text-white/90 hover:text-white"
+          >
+            +91 9269666646
           </a>
         </div>
 
@@ -75,7 +82,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="border-t border-white/10 py-4 text-center text-xs text-white/45">
-        © {new Date().getFullYear()} CB Trackel. All rights reserved.
+        © {new Date().getFullYear()} Chairbord Pvt Ltd. All rights reserved.
       </div>
     </footer>
   );

@@ -1,8 +1,8 @@
 import Link from "next/link";
 
 const ADDRESS =
-  "Plot No. 10, Shri Shyam Vihar, Kardhani, Jaipur, Rajasthan 302012";
-const PHONE = "+91 7453014747";
+  "13 Sapna Tower, near Marudhar Mart, Kalwar Road, Govindpura, Jaipur, Rajasthan 302012";
+const PHONE = "+91 9269666646";
 
 type Section = {
   heading?: string;
@@ -46,7 +46,7 @@ const policies: Record<string, Policy> = {
     title: "Privacy Policy",
     updated: "Last updated 24 November 2026",
     intro: [
-      "At CB Trackel (“we,” “us,” or “our”), we respect your privacy and are committed to protecting the personal information you share with us. This Privacy Policy explains how we collect, use, and safeguard your data when you use our website and buy our products. By using this website, you agree to this policy.",
+      "At Chairbord Pvt Ltd (“we,” “us,” or “our”), we respect your privacy and are committed to protecting the personal information you share with us. This Privacy Policy explains how we collect, use, and safeguard your data when you use our website and buy our products. By using this website, you agree to this policy.",
     ],
     sections: [
       {
@@ -123,7 +123,7 @@ const policies: Record<string, Policy> = {
     title: "Terms & Conditions",
     updated: "Last updated 24 November 2026",
     intro: [
-      `These Terms and Conditions, together with the Privacy Policy and the Refunds & Cancellations policy, are a binding agreement between CB Trackel (“we”, “us”) and you. They cover your use of this website and the purchase of goods listed here. By using the website or placing an order, you agree to these terms. We may update them, and the current version on this page applies.`,
+      `These Terms and Conditions, together with the Privacy Policy and the Refunds & Cancellations policy, are a binding agreement between Chairbord Pvt Ltd (“we”, “us”) and you. They cover your use of this website and the purchase of goods listed here. By using the website or placing an order, you agree to these terms. We may update them, and the current version on this page applies.`,
     ],
     sections: [
       {
@@ -131,7 +131,7 @@ const policies: Record<string, Policy> = {
         bullets: [
           "You agree to give true and complete information at checkout, including your name, phone number, email, and delivery address.",
           "Product descriptions and prices are listed on this website in INR (₹). You should check that a product meets your need before you pay.",
-          "The photos, text, and layout of this website belong to CB Trackel. You may not copy them for your own store.",
+          "The photos, text, and layout of this website belong to Chairbord Pvt Ltd. You may not copy them for your own store.",
           "You agree to pay the price shown at checkout. Payment is collected in INR by UPI, card, or net banking through our payment partner.",
           "You will not use the website for anything unlawful under Indian law.",
           "Placing an order and completing payment is a contract to buy those products from us.",
@@ -155,13 +155,13 @@ const policies: Record<string, Policy> = {
     title: "Refunds & Cancellations",
     updated: "Last updated 24 November 2026",
     intro: [
-      "Cancellation & Refund Policy. CB Trackel will help you cancel or return an order wherever the rules below allow.",
+      "Cancellation & Refund Policy. Chairbord Pvt Ltd will help you cancel or return an order wherever the rules below allow.",
     ],
     sections: [
       {
         heading: "Cancellation",
         bullets: [
-          "A cancellation is accepted when you ask immediately after placing the order and before the order has been handed to the courier. Call +91 7453014747 with your order ID.",
+          "A cancellation is accepted when you ask immediately after placing the order and before the order has been handed to the courier. Call +91 9269666646 with your order ID.",
           "Once the order has been shipped, we cannot cancel it. You can refuse delivery or follow the return rules below.",
           "If a cancellation is accepted and payment was already taken, we refund the full amount in INR.",
         ],
@@ -286,7 +286,7 @@ function ContactPage() {
             Call the helpline
           </dt>
           <dd className="mt-1">
-            <a href="tel:+917453014747" className="text-sm text-[var(--navy)]">
+            <a href="tel:+919269666646" className="text-sm text-[var(--navy)]">
               {PHONE}
             </a>
           </dd>
@@ -295,7 +295,7 @@ function ContactPage() {
           <dt className="text-sm font-semibold text-[var(--ink)]">WhatsApp</dt>
           <dd className="mt-1">
             <a
-              href="https://wa.me/917453014747"
+              href="https://wa.me/919269666646"
               className="text-sm text-[var(--navy)]"
             >
               {PHONE}
@@ -303,9 +303,20 @@ function ContactPage() {
           </dd>
         </div>
         <div>
+          <dt className="text-sm font-semibold text-[var(--ink)]">Email us</dt>
+          <dd className="mt-1">
+            <a
+              href="mailto:connect@chairbord.com"
+              className="text-sm text-[var(--navy)]"
+            >
+              connect@chairbord.com
+            </a>
+          </dd>
+        </div>
+        <div>
           <dt className="text-sm font-semibold text-[var(--ink)]">Location</dt>
           <dd className="mt-1 text-sm leading-relaxed text-[var(--ink)]/85">
-            CB Trackel, {ADDRESS}
+            Chairbord Pvt Ltd, {ADDRESS}
           </dd>
         </div>
         <div>

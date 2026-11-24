@@ -18,21 +18,21 @@
       "id": "3",
       "name": "Duster",
       "slug": "duster",
-      "description": "Microfiber dusters for cars, SUVs, and home.",
+      "description": "Microfiber dusters for cars, SUVs, and bikes.",
       "image": "https://m.media-amazon.com/images/I/61dmYqR+aeL.jpg"
     },
     {
       "id": "4",
       "name": "Brushes",
       "slug": "brushes",
-      "description": "AC vent and desk brushes for interiors and electronics.",
+      "description": "AC vent brushes for car interiors.",
       "image": "https://m.media-amazon.com/images/I/61OoazY9BrL.jpg"
     },
     {
       "id": "5",
       "name": "Microfiber Cloth",
       "slug": "cloth",
-      "description": "Thick microfiber towels for cars, bikes, and home.",
+      "description": "Thick microfiber towels for cars and bikes.",
       "image": "https://m.media-amazon.com/images/I/716cpsn5wcL.jpg"
     },
     {

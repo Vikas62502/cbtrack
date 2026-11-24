@@ -13,9 +13,9 @@ const sans = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "CB Trackel | Premium Car Accessories Online",
+  title: "CB Track | Chairbord Pvt Ltd — FASTag, GPS and vehicle accessories",
   description:
-    "Shop premium metal car key covers, Fastag holders, and car cleaning kits from CB Trackel. Free shipping on all orders.",
+    "Chairbord Pvt Ltd sells FASTag, GPS devices, and vehicle accessories. CB Track lists car key covers, cleaning kits, and tag holders. Prices in INR.",
 };
 
 export default function RootLayout({

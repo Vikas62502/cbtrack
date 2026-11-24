@@ -16,10 +16,10 @@ export default function About() {
           About US
         </h2>
         <p className="mt-4 text-[15px] leading-relaxed text-[var(--muted)]">
-          CB Trackel specializes in the manufacture and online sale of premium
-          car accessories. Our range includes durable metal car key covers, tag
-          holders, and essential car cleaning tools like microfiber cloths,
-          brushes, and dusters — with a focus on quality and convenience.
+          Chairbord Pvt Ltd is the company behind chairbord.in and this store.
+          We sell FASTag, GPS devices, and vehicle accessories, including car
+          key covers, tag holders, cleaning kits, cloths, brushes, and dusters.
+          Prices are in INR, and orders are delivered across India.
         </p>
         <Link
           href="/products"

@@ -39,9 +39,16 @@ export type Testimonial = {
   quote: string;
 };
 
-export const categories: Category[] = catalog.categories;
-export const collections: Collection[] = catalog.collections;
-export const products: Product[] = catalog.products;
+export const categories: Category[] = catalog.categories.filter(
+  (category) => category.slug !== "money-box" && category.slug !== "water-bag",
+);
+export const collections: Collection[] = catalog.collections.filter(
+  (collection) => collection.slug !== "home-essentials",
+);
+export const products: Product[] = catalog.products.filter(
+  (product) =>
+    product.category !== "money-box" && product.category !== "water-bag",
+);
 export const testimonials: Testimonial[] = catalog.testimonials;
 
 export function getDiscountPercent(price: number, compareAt: number) {

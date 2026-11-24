@@ -104,7 +104,7 @@ export default function StatusClient() {
 
   const paid = order.status === "paid";
   const failed = order.status === "failed";
-  const whatsapp = `https://wa.me/917453014747?text=${encodeURIComponent(
+  const whatsapp = `https://wa.me/919269666646?text=${encodeURIComponent(
     `Hi, I need help with order ${order.id}`,
   )}`;
 
